@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5F3FCDDF-150D-3A3F-847D-0838293834C5}</ProjectGuid>
+    <ProjectGuid>{DEC7453E-17E7-3F77-B53E-1A10EEB43650}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ijg16.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ijg16</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ijg16.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ijg16</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ijg16.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ijg16</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ijg16.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ijg16</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -87,7 +87,7 @@
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,14 +111,14 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,14 +144,14 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -185,7 +185,7 @@
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ijg16_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,7 +212,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmjpeg/libijg16/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmjpeg/libijg16/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmjpeg/libijg16/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmjpeg/libijg16/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmjpeg/libijg16/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmjpeg/libijg16/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmjpeg/libijg16/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmjpeg/libijg16/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmjpeg/libijg16/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmjpeg/libijg16/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmjpeg/libijg16/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmjpeg/libijg16/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,7 +260,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmjpeg\libijg16\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -331,8 +331,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmjpeg\libijg16\jutils.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ZERO_CHECK.vcxproj">
-      <Project>{227B7A2B-128B-3EFC-8D93-C23E7D78C6EF}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\ZERO_CHECK.vcxproj">
+      <Project>{CA1738A5-5F45-3D69-B5CB-54D1B4D41ECE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

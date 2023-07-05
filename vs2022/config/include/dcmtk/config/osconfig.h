@@ -945,7 +945,7 @@
 #define WITH_LIBXML
 
 /* Define if we are compiling with OpenJPEG support */
-/* #undef WITH_OPENJPEG */
+#define WITH_OPENJPEG
 
 /* Define if we are compiling with OpenSSL support */
 #define WITH_OPENSSL

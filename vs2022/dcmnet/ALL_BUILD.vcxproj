@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5C826545-D92A-35ED-8028-6D5F874F3C38}</ProjectGuid>
+    <ProjectGuid>{020F5A4B-4AE1-33E6-BE04-CAE967157B8C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\openssl-1.1.1n\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmnet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmnet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmnet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmnet\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmnet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmnet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmnet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmnet\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmnet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmnet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmnet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmnet\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmnet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmnet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmnet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,61 +160,61 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmnet\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ZERO_CHECK.vcxproj">
-      <Project>{227B7A2B-128B-3EFC-8D93-C23E7D78C6EF}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\ZERO_CHECK.vcxproj">
+      <Project>{CA1738A5-5F45-3D69-B5CB-54D1B4D41ECE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\libsrc\dcmnet.vcxproj">
-      <Project>{BAD96C48-5BE4-3870-9C6B-15EFDB6B69E3}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\libsrc\dcmnet.vcxproj">
+      <Project>{D65C5E5D-E201-349C-8DA1-A0E261FA1C4A}</Project>
       <Name>dcmnet</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\tests\dcmnet_tests.vcxproj">
-      <Project>{483A4970-D6A6-32A8-9C7C-14A50EF1ADFB}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\tests\dcmnet_tests.vcxproj">
+      <Project>{4ABA154B-A14E-3200-8143-1FE133995B9C}</Project>
       <Name>dcmnet_tests</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\dcmrecv.vcxproj">
-      <Project>{ABDB1AFC-0D89-3B23-8D19-F84D90373136}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\dcmrecv.vcxproj">
+      <Project>{31FC0B2A-BBE2-306A-A940-E62BF0E88903}</Project>
       <Name>dcmrecv</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\dcmsend.vcxproj">
-      <Project>{83AB8D31-11CF-35F6-AA1E-E72EAB006688}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\dcmsend.vcxproj">
+      <Project>{27F7E5D3-A0EF-3D8A-B65B-CBA33D2753BA}</Project>
       <Name>dcmsend</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\echoscu.vcxproj">
-      <Project>{0F7E19B9-70F8-30AD-8B90-554DF08E337C}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\echoscu.vcxproj">
+      <Project>{02097E34-851E-36FB-A1CF-B159C605F0AA}</Project>
       <Name>echoscu</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\findscu.vcxproj">
-      <Project>{35285169-1341-3DEB-A1B8-C281EB7C99FB}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\findscu.vcxproj">
+      <Project>{115358DB-05FE-313C-8FB6-1617E43B6E17}</Project>
       <Name>findscu</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\getscu.vcxproj">
-      <Project>{EEDA623A-0BD7-373B-BCE1-C2007C4B51E7}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\getscu.vcxproj">
+      <Project>{FF05C492-FA7E-3366-ADEA-3608A7DF7B1B}</Project>
       <Name>getscu</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\movescu.vcxproj">
-      <Project>{46FD0DBC-1329-3E55-BCC2-79CBA90A5F9C}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\movescu.vcxproj">
+      <Project>{27E3A665-2AAA-3D6C-83A5-BD40723ED0F5}</Project>
       <Name>movescu</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\storescp.vcxproj">
-      <Project>{408A63D2-3EE3-32D4-A333-3B93E73825D0}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\storescp.vcxproj">
+      <Project>{664A5148-0AB6-383D-A422-ACD90DC6630A}</Project>
       <Name>storescp</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\storescu.vcxproj">
-      <Project>{6FF703EE-A06C-3CD2-906F-99B3C1132924}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\storescu.vcxproj">
+      <Project>{EC53BAA7-7EA3-33D1-8F4F-ED66A20E55A0}</Project>
       <Name>storescu</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\termscu.vcxproj">
-      <Project>{3B945BCF-21A9-3C2B-8539-32A079249182}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmnet\apps\termscu.vcxproj">
+      <Project>{43C97FF3-F50E-3C68-8391-02E3D8059380}</Project>
       <Name>termscu</Name>
     </ProjectReference>
   </ItemGroup>

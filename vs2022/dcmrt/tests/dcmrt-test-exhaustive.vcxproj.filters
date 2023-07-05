@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\a3f77f5ac8b390ba855358484d5541c8\dcmrt-test-exhaustive.rule">
+    <CustomBuild Include="C:\__Dev\dcmtk-3.6.7\vs2022\CMakeFiles\dd13c1707bf00449149119b882b44295\dcmrt-test-exhaustive.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="C:\__Dev\dcmtk-3.6.7\dcmrt\tests\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\__Dev\dcmtk-3.6.7\build\dcmrt\tests\CMakeFiles\dcmrt-test-exhaustive" />
+    <None Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmrt\tests\CMakeFiles\dcmrt-test-exhaustive" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{072006A5-450E-3207-BC27-42C5E162AD4C}</UniqueIdentifier>
+      <UniqueIdentifier>{56874E65-1B3E-373F-B25B-F2CB3901BBFE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

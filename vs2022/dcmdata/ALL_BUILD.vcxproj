@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5C826545-D92A-35ED-8028-6D5F874F3C38}</ProjectGuid>
+    <ProjectGuid>{020F5A4B-4AE1-33E6-BE04-CAE967157B8C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\vs2022\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmdata/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmdata/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmdata/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmdata/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmdata/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmdata/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmdata/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmdata/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/vs2022 --check-stamp-file C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,93 +160,93 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmdata\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ZERO_CHECK.vcxproj">
-      <Project>{227B7A2B-128B-3EFC-8D93-C23E7D78C6EF}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\ZERO_CHECK.vcxproj">
+      <Project>{CA1738A5-5F45-3D69-B5CB-54D1B4D41ECE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\cda2dcm.vcxproj">
-      <Project>{452A85E1-7604-3BC9-A289-805061B76BB4}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\cda2dcm.vcxproj">
+      <Project>{6DEA422C-9E02-391B-AC8B-78226D6762FE}</Project>
       <Name>cda2dcm</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcm2json.vcxproj">
-      <Project>{57E77C07-E430-3D3F-92B2-D4F2ED0B1F42}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcm2json.vcxproj">
+      <Project>{5540FCB5-B434-3531-A1C7-AE55828102EF}</Project>
       <Name>dcm2json</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcm2pdf.vcxproj">
-      <Project>{D477F0E0-B3BE-3251-9438-D8F0E5C55B65}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcm2pdf.vcxproj">
+      <Project>{EE293D21-6653-3EFA-B5A7-51702BE4411E}</Project>
       <Name>dcm2pdf</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcm2xml.vcxproj">
-      <Project>{B8AB0107-1952-305F-9532-FD513437C1CC}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcm2xml.vcxproj">
+      <Project>{FCD0FB8C-2636-3E74-AB22-C72004621F0C}</Project>
       <Name>dcm2xml</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmconv.vcxproj">
-      <Project>{C5652A0F-06DA-3789-B344-5EAEFD3E4F06}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcmconv.vcxproj">
+      <Project>{CBB9ABBB-6A27-3837-8B1B-3B8CED0E63A3}</Project>
       <Name>dcmconv</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmcrle.vcxproj">
-      <Project>{B2D7F782-C301-3138-8040-5F2C148526F3}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcmcrle.vcxproj">
+      <Project>{030B308F-B795-3F04-B747-0341448059CD}</Project>
       <Name>dcmcrle</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\libsrc\dcmdata.vcxproj">
-      <Project>{D1FCF2FC-2240-32F9-80C9-1FC470223A4B}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\libsrc\dcmdata.vcxproj">
+      <Project>{5683008B-CD9C-3259-81E1-6479B60B96E7}</Project>
       <Name>dcmdata</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\tests\dcmdata_tests.vcxproj">
-      <Project>{1A9E3ED0-77CC-398D-B024-ADF9F802EFA7}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\tests\dcmdata_tests.vcxproj">
+      <Project>{A88A1F88-3F58-3686-8ACA-39B90BE89C37}</Project>
       <Name>dcmdata_tests</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmdrle.vcxproj">
-      <Project>{139B6B3D-E736-3A55-B4C1-F2C48653D6B1}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcmdrle.vcxproj">
+      <Project>{7E6643A8-C69E-314B-93FE-C480C5776298}</Project>
       <Name>dcmdrle</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmdump.vcxproj">
-      <Project>{EEE3D106-ED06-310F-A05E-A635A9E39D53}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcmdump.vcxproj">
+      <Project>{BA917B28-F48C-3142-905F-61B179CDA456}</Project>
       <Name>dcmdump</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmftest.vcxproj">
-      <Project>{02CB359E-DEBB-3807-9D4D-BE9E46E61D74}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcmftest.vcxproj">
+      <Project>{71F7D307-3FCD-3BA8-BE49-F2C8CA71447A}</Project>
       <Name>dcmftest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmgpdir.vcxproj">
-      <Project>{1964DE7C-7AF2-3A0F-8FEF-E84F6B045883}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcmgpdir.vcxproj">
+      <Project>{ECEABCE5-DFCC-346D-84A3-1FD2B92E56DC}</Project>
       <Name>dcmgpdir</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmodify.vcxproj">
-      <Project>{341D13FB-3CE6-3E9C-A297-C32A3F0240BE}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dcmodify.vcxproj">
+      <Project>{42F3BCAB-C638-3921-8E3C-1F32F72127C7}</Project>
       <Name>dcmodify</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dump2dcm.vcxproj">
-      <Project>{7DDE55B6-552D-31F2-8A3C-014E2E4ED21B}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\dump2dcm.vcxproj">
+      <Project>{ECAD4217-7841-34C2-8289-D3351AE00282}</Project>
       <Name>dump2dcm</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\libi2d\i2d.vcxproj">
-      <Project>{0D616C78-CDA1-3B50-B5E8-BEBEABE54987}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\libi2d\i2d.vcxproj">
+      <Project>{2B9E8DBB-9530-353C-8D3B-A2B42B33F2EC}</Project>
       <Name>i2d</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\img2dcm.vcxproj">
-      <Project>{5718844C-316F-3FED-842D-166E377E74C3}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\img2dcm.vcxproj">
+      <Project>{86DD85F3-A747-3124-B6A7-6DE16C512577}</Project>
       <Name>img2dcm</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\pdf2dcm.vcxproj">
-      <Project>{FDE6B9C6-6B84-3AA1-AE40-EC2405C71C5E}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\pdf2dcm.vcxproj">
+      <Project>{B7EBC657-EDC8-3A86-B524-F4FD08D91FB8}</Project>
       <Name>pdf2dcm</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\stl2dcm.vcxproj">
-      <Project>{38A9D70F-31B9-34F7-A91C-B4CA597D4308}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\stl2dcm.vcxproj">
+      <Project>{C456C274-6B01-35CF-96E6-FECC9E9B6F00}</Project>
       <Name>stl2dcm</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\xml2dcm.vcxproj">
-      <Project>{C4CA0BE8-BA5C-3C03-9944-AF3CFD4E0B43}</Project>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\vs2022\dcmdata\apps\xml2dcm.vcxproj">
+      <Project>{88C244F5-3890-3ACB-BE36-5D4F43F875B5}</Project>
       <Name>xml2dcm</Name>
     </ProjectReference>
   </ItemGroup>

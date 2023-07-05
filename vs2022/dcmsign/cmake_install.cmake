@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmsign/libsrc/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmsign/apps/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmsign/include/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmsign/libsrc/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmsign/apps/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmsign/include/cmake_install.cmake")
 
 endif()
 

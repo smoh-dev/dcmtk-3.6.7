@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CompilerIdC\CompilerIdC.exe</FullPath>
+      <FullPath>C:\__Dev\dcmtk-3.6.7\vs2022\CMakeFiles\3.26.3\CompilerIdC\CompilerIdC.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

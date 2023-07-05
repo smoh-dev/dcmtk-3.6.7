@@ -27,7 +27,7 @@ if(EXISTS ${SELF_DIR}/OpenJPEGTargets.cmake)
   # This is an install tree
   include(${SELF_DIR}/OpenJPEGTargets.cmake)
 
-  set(INC_DIR "D:/support/build-Visual_Studio_17_2022_Win64/openjpeg-prefix/install-MT/include/openjpeg-2.4")
+  set(INC_DIR "D:/support/build-Visual_Studio_17_2022_Win64/openjpeg-prefix/install/include/openjpeg-2.4")
   get_filename_component(OPENJPEG_INCLUDE_DIRS "${INC_DIR}" ABSOLUTE)
 
 else()

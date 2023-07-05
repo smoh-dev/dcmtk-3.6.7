@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/libsrc/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/libi2d/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/apps/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/include/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/docs/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/data/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/tests/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/libsrc/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/libi2d/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/apps/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/include/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/docs/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/data/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/tests/cmake_install.cmake")
 
 endif()
 

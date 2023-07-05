@@ -273,7 +273,7 @@ add_executable(DCMTK::dcmect_tests IMPORTED)
 add_library(DCMTK::config INTERFACE IMPORTED)
 
 set_target_properties(DCMTK::config PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/__Dev/dcmtk-3.6.7/build/config/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/__Dev/dcmtk-3.6.7/vs2022/config/include"
 )
 
 # Create imported target DCMTK::ofstd
@@ -499,2509 +499,2509 @@ set_target_properties(DCMTK::DCMTK PROPERTIES
 # Import target "DCMTK::ofstd_tests" for configuration "Debug"
 set_property(TARGET DCMTK::ofstd_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::ofstd_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/ofstd_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/ofstd_tests.exe"
   )
 
 # Import target "DCMTK::dcm2xml" for configuration "Debug"
 set_property(TARGET DCMTK::dcm2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcm2xml PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcm2xml.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcm2xml.exe"
   )
 
 # Import target "DCMTK::dcmconv" for configuration "Debug"
 set_property(TARGET DCMTK::dcmconv APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmconv PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmconv.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmconv.exe"
   )
 
 # Import target "DCMTK::dcmcrle" for configuration "Debug"
 set_property(TARGET DCMTK::dcmcrle APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmcrle PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmcrle.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmcrle.exe"
   )
 
 # Import target "DCMTK::dcmdrle" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdrle APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdrle PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmdrle.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmdrle.exe"
   )
 
 # Import target "DCMTK::dcmdump" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdump APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdump PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmdump.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmdump.exe"
   )
 
 # Import target "DCMTK::dcmftest" for configuration "Debug"
 set_property(TARGET DCMTK::dcmftest APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmftest PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmftest.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmftest.exe"
   )
 
 # Import target "DCMTK::dcmgpdir" for configuration "Debug"
 set_property(TARGET DCMTK::dcmgpdir APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmgpdir PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmgpdir.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmgpdir.exe"
   )
 
 # Import target "DCMTK::dump2dcm" for configuration "Debug"
 set_property(TARGET DCMTK::dump2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dump2dcm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dump2dcm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dump2dcm.exe"
   )
 
 # Import target "DCMTK::xml2dcm" for configuration "Debug"
 set_property(TARGET DCMTK::xml2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::xml2dcm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/xml2dcm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/xml2dcm.exe"
   )
 
 # Import target "DCMTK::stl2dcm" for configuration "Debug"
 set_property(TARGET DCMTK::stl2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::stl2dcm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/stl2dcm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/stl2dcm.exe"
   )
 
 # Import target "DCMTK::pdf2dcm" for configuration "Debug"
 set_property(TARGET DCMTK::pdf2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::pdf2dcm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/pdf2dcm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/pdf2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2pdf" for configuration "Debug"
 set_property(TARGET DCMTK::dcm2pdf APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcm2pdf PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcm2pdf.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcm2pdf.exe"
   )
 
 # Import target "DCMTK::img2dcm" for configuration "Debug"
 set_property(TARGET DCMTK::img2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::img2dcm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/img2dcm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/img2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2json" for configuration "Debug"
 set_property(TARGET DCMTK::dcm2json APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcm2json PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcm2json.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcm2json.exe"
   )
 
 # Import target "DCMTK::cda2dcm" for configuration "Debug"
 set_property(TARGET DCMTK::cda2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::cda2dcm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/cda2dcm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/cda2dcm.exe"
   )
 
 # Import target "DCMTK::dcmodify" for configuration "Debug"
 set_property(TARGET DCMTK::dcmodify APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmodify PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmodify.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmodify.exe"
   )
 
 # Import target "DCMTK::dcmdata_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdata_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdata_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmdata_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmdata_tests.exe"
   )
 
 # Import target "DCMTK::dcmdspfn" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdspfn APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdspfn PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmdspfn.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmdspfn.exe"
   )
 
 # Import target "DCMTK::dcod2lum" for configuration "Debug"
 set_property(TARGET DCMTK::dcod2lum APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcod2lum PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcod2lum.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcod2lum.exe"
   )
 
 # Import target "DCMTK::dconvlum" for configuration "Debug"
 set_property(TARGET DCMTK::dconvlum APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dconvlum PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dconvlum.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dconvlum.exe"
   )
 
 # Import target "DCMTK::dcm2pnm" for configuration "Debug"
 set_property(TARGET DCMTK::dcm2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcm2pnm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcm2pnm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcm2pnm.exe"
   )
 
 # Import target "DCMTK::dcmquant" for configuration "Debug"
 set_property(TARGET DCMTK::dcmquant APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmquant PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmquant.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmquant.exe"
   )
 
 # Import target "DCMTK::dcmscale" for configuration "Debug"
 set_property(TARGET DCMTK::dcmscale APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmscale PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmscale.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmscale.exe"
   )
 
 # Import target "DCMTK::dcmicmp" for configuration "Debug"
 set_property(TARGET DCMTK::dcmicmp APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmicmp PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmicmp.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmicmp.exe"
   )
 
 # Import target "DCMTK::dcmcjpeg" for configuration "Debug"
 set_property(TARGET DCMTK::dcmcjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmcjpeg PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmcjpeg.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmcjpeg.exe"
   )
 
 # Import target "DCMTK::dcmdjpeg" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdjpeg PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmdjpeg.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmdjpeg.exe"
   )
 
 # Import target "DCMTK::dcmj2pnm" for configuration "Debug"
 set_property(TARGET DCMTK::dcmj2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmj2pnm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmj2pnm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmj2pnm.exe"
   )
 
 # Import target "DCMTK::dcmmkdir" for configuration "Debug"
 set_property(TARGET DCMTK::dcmmkdir APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmmkdir PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmmkdir.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmmkdir.exe"
   )
 
 # Import target "DCMTK::dcmcjpls" for configuration "Debug"
 set_property(TARGET DCMTK::dcmcjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmcjpls PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmcjpls.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmcjpls.exe"
   )
 
 # Import target "DCMTK::dcmdjpls" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdjpls PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmdjpls.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmdjpls.exe"
   )
 
 # Import target "DCMTK::dcml2pnm" for configuration "Debug"
 set_property(TARGET DCMTK::dcml2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcml2pnm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcml2pnm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcml2pnm.exe"
   )
 
 # Import target "DCMTK::dcmtls_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmtls_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmtls_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmtls_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmtls_tests.exe"
   )
 
 # Import target "DCMTK::dcmrecv" for configuration "Debug"
 set_property(TARGET DCMTK::dcmrecv APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmrecv PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmrecv.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmrecv.exe"
   )
 
 # Import target "DCMTK::dcmsend" for configuration "Debug"
 set_property(TARGET DCMTK::dcmsend APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmsend PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmsend.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmsend.exe"
   )
 
 # Import target "DCMTK::echoscu" for configuration "Debug"
 set_property(TARGET DCMTK::echoscu APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::echoscu PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/echoscu.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/echoscu.exe"
   )
 
 # Import target "DCMTK::findscu" for configuration "Debug"
 set_property(TARGET DCMTK::findscu APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::findscu PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/findscu.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/findscu.exe"
   )
 
 # Import target "DCMTK::getscu" for configuration "Debug"
 set_property(TARGET DCMTK::getscu APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::getscu PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/getscu.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/getscu.exe"
   )
 
 # Import target "DCMTK::movescu" for configuration "Debug"
 set_property(TARGET DCMTK::movescu APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::movescu PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/movescu.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/movescu.exe"
   )
 
 # Import target "DCMTK::storescp" for configuration "Debug"
 set_property(TARGET DCMTK::storescp APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::storescp PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/storescp.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/storescp.exe"
   )
 
 # Import target "DCMTK::storescu" for configuration "Debug"
 set_property(TARGET DCMTK::storescu APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::storescu PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/storescu.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/storescu.exe"
   )
 
 # Import target "DCMTK::termscu" for configuration "Debug"
 set_property(TARGET DCMTK::termscu APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::termscu PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/termscu.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/termscu.exe"
   )
 
 # Import target "DCMTK::dcmnet_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmnet_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmnet_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmnet_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmnet_tests.exe"
   )
 
 # Import target "DCMTK::dsr2html" for configuration "Debug"
 set_property(TARGET DCMTK::dsr2html APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dsr2html PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dsr2html.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dsr2html.exe"
   )
 
 # Import target "DCMTK::dsr2xml" for configuration "Debug"
 set_property(TARGET DCMTK::dsr2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dsr2xml PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dsr2xml.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dsr2xml.exe"
   )
 
 # Import target "DCMTK::dsrdump" for configuration "Debug"
 set_property(TARGET DCMTK::dsrdump APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dsrdump PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dsrdump.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dsrdump.exe"
   )
 
 # Import target "DCMTK::xml2dsr" for configuration "Debug"
 set_property(TARGET DCMTK::xml2dsr APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::xml2dsr PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/xml2dsr.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/xml2dsr.exe"
   )
 
 # Import target "DCMTK::mkreport" for configuration "Debug"
 set_property(TARGET DCMTK::mkreport APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::mkreport PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/mkreport.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/mkreport.exe"
   )
 
 # Import target "DCMTK::dcmsr_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmsr_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmsr_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmsr_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmsr_tests.exe"
   )
 
 # Import target "DCMTK::dcmsign" for configuration "Debug"
 set_property(TARGET DCMTK::dcmsign APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmsign PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmsign.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmsign.exe"
   )
 
 # Import target "DCMTK::wlmscpfs" for configuration "Debug"
 set_property(TARGET DCMTK::wlmscpfs APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::wlmscpfs PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/wlmscpfs.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/wlmscpfs.exe"
   )
 
 # Import target "DCMTK::wltest" for configuration "Debug"
 set_property(TARGET DCMTK::wltest APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::wltest PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/wltest.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/wltest.exe"
   )
 
 # Import target "DCMTK::dcmqrscp" for configuration "Debug"
 set_property(TARGET DCMTK::dcmqrscp APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmqrscp PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmqrscp.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmqrscp.exe"
   )
 
 # Import target "DCMTK::dcmqridx" for configuration "Debug"
 set_property(TARGET DCMTK::dcmqridx APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmqridx PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmqridx.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmqridx.exe"
   )
 
 # Import target "DCMTK::dcmqrti" for configuration "Debug"
 set_property(TARGET DCMTK::dcmqrti APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmqrti PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmqrti.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmqrti.exe"
   )
 
 # Import target "DCMTK::dcmmkcrv" for configuration "Debug"
 set_property(TARGET DCMTK::dcmmkcrv APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmmkcrv PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmmkcrv.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmmkcrv.exe"
   )
 
 # Import target "DCMTK::dcmmklut" for configuration "Debug"
 set_property(TARGET DCMTK::dcmmklut APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmmklut PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmmklut.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmmklut.exe"
   )
 
 # Import target "DCMTK::dcmp2pgm" for configuration "Debug"
 set_property(TARGET DCMTK::dcmp2pgm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmp2pgm PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmp2pgm.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmp2pgm.exe"
   )
 
 # Import target "DCMTK::dcmprscp" for configuration "Debug"
 set_property(TARGET DCMTK::dcmprscp APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmprscp PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmprscp.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmprscp.exe"
   )
 
 # Import target "DCMTK::dcmprscu" for configuration "Debug"
 set_property(TARGET DCMTK::dcmprscu APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmprscu PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmprscu.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmprscu.exe"
   )
 
 # Import target "DCMTK::dcmpschk" for configuration "Debug"
 set_property(TARGET DCMTK::dcmpschk APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmpschk PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmpschk.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmpschk.exe"
   )
 
 # Import target "DCMTK::dcmpsmk" for configuration "Debug"
 set_property(TARGET DCMTK::dcmpsmk APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmpsmk PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmpsmk.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmpsmk.exe"
   )
 
 # Import target "DCMTK::dcmpsprt" for configuration "Debug"
 set_property(TARGET DCMTK::dcmpsprt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmpsprt PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmpsprt.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmpsprt.exe"
   )
 
 # Import target "DCMTK::dcmpsrcv" for configuration "Debug"
 set_property(TARGET DCMTK::dcmpsrcv APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmpsrcv PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmpsrcv.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmpsrcv.exe"
   )
 
 # Import target "DCMTK::dcmpssnd" for configuration "Debug"
 set_property(TARGET DCMTK::dcmpssnd APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmpssnd PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmpssnd.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmpssnd.exe"
   )
 
 # Import target "DCMTK::msgserv" for configuration "Debug"
 set_property(TARGET DCMTK::msgserv APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::msgserv PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/msgserv.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/msgserv.exe"
   )
 
 # Import target "DCMTK::drtdump" for configuration "Debug"
 set_property(TARGET DCMTK::drtdump APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::drtdump PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/drtdump.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/drtdump.exe"
   )
 
 # Import target "DCMTK::drttest" for configuration "Debug"
 set_property(TARGET DCMTK::drttest APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::drttest PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/drttest.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/drttest.exe"
   )
 
 # Import target "DCMTK::dcmrt_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmrt_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmrt_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmrt_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmrt_tests.exe"
   )
 
 # Import target "DCMTK::dcmiod_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmiod_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmiod_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmiod_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmiod_tests.exe"
   )
 
 # Import target "DCMTK::dcmfg_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmfg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmfg_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmfg_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmfg_tests.exe"
   )
 
 # Import target "DCMTK::dcmseg_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmseg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmseg_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmseg_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmseg_tests.exe"
   )
 
 # Import target "DCMTK::dcmect_tests" for configuration "Debug"
 set_property(TARGET DCMTK::dcmect_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmect_tests PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmect_tests.exe"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Debug/dcmect_tests.exe"
   )
 
 # Import target "DCMTK::ofstd" for configuration "Debug"
 set_property(TARGET DCMTK::ofstd APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::ofstd PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/ofstd.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/ofstd.lib"
   )
 
 # Import target "DCMTK::oflog" for configuration "Debug"
 set_property(TARGET DCMTK::oflog APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::oflog PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/oflog.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/oflog.lib"
   )
 
 # Import target "DCMTK::dcmdata" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdata APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdata PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmdata.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmdata.lib"
   )
 
 # Import target "DCMTK::i2d" for configuration "Debug"
 set_property(TARGET DCMTK::i2d APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::i2d PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/i2d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/i2d.lib"
   )
 
 # Import target "DCMTK::dcmimgle" for configuration "Debug"
 set_property(TARGET DCMTK::dcmimgle APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmimgle PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmimgle.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmimgle.lib"
   )
 
 # Import target "DCMTK::dcmimage" for configuration "Debug"
 set_property(TARGET DCMTK::dcmimage APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmimage PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmimage.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmimage.lib"
   )
 
 # Import target "DCMTK::dcmjpeg" for configuration "Debug"
 set_property(TARGET DCMTK::dcmjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmjpeg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmjpeg.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmjpeg.lib"
   )
 
 # Import target "DCMTK::ijg8" for configuration "Debug"
 set_property(TARGET DCMTK::ijg8 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::ijg8 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/ijg8.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/ijg8.lib"
   )
 
 # Import target "DCMTK::ijg12" for configuration "Debug"
 set_property(TARGET DCMTK::ijg12 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::ijg12 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/ijg12.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/ijg12.lib"
   )
 
 # Import target "DCMTK::ijg16" for configuration "Debug"
 set_property(TARGET DCMTK::ijg16 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::ijg16 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/ijg16.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/ijg16.lib"
   )
 
 # Import target "DCMTK::dcmjpls" for configuration "Debug"
 set_property(TARGET DCMTK::dcmjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmjpls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmjpls.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmjpls.lib"
   )
 
 # Import target "DCMTK::dcmtkcharls" for configuration "Debug"
 set_property(TARGET DCMTK::dcmtkcharls APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmtkcharls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmtkcharls.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmtkcharls.lib"
   )
 
 # Import target "DCMTK::dcmtls" for configuration "Debug"
 set_property(TARGET DCMTK::dcmtls APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmtls.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmtls.lib"
   )
 
 # Import target "DCMTK::dcmnet" for configuration "Debug"
 set_property(TARGET DCMTK::dcmnet APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmnet PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmnet.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmnet.lib"
   )
 
 # Import target "DCMTK::dcmsr" for configuration "Debug"
 set_property(TARGET DCMTK::dcmsr APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmsr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmsr.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmsr.lib"
   )
 
 # Import target "DCMTK::cmr" for configuration "Debug"
 set_property(TARGET DCMTK::cmr APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::cmr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/cmr.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/cmr.lib"
   )
 
 # Import target "DCMTK::dcmdsig" for configuration "Debug"
 set_property(TARGET DCMTK::dcmdsig APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmdsig PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmdsig.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmdsig.lib"
   )
 
 # Import target "DCMTK::dcmwlm" for configuration "Debug"
 set_property(TARGET DCMTK::dcmwlm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmwlm PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmwlm.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmwlm.lib"
   )
 
 # Import target "DCMTK::dcmqrdb" for configuration "Debug"
 set_property(TARGET DCMTK::dcmqrdb APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmqrdb PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmqrdb.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmqrdb.lib"
   )
 
 # Import target "DCMTK::dcmpstat" for configuration "Debug"
 set_property(TARGET DCMTK::dcmpstat APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmpstat PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmpstat.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmpstat.lib"
   )
 
 # Import target "DCMTK::dcmrt" for configuration "Debug"
 set_property(TARGET DCMTK::dcmrt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmrt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmrt.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmrt.lib"
   )
 
 # Import target "DCMTK::dcmiod" for configuration "Debug"
 set_property(TARGET DCMTK::dcmiod APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmiod PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmiod.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmiod.lib"
   )
 
 # Import target "DCMTK::dcmfg" for configuration "Debug"
 set_property(TARGET DCMTK::dcmfg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmfg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmfg.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmfg.lib"
   )
 
 # Import target "DCMTK::dcmseg" for configuration "Debug"
 set_property(TARGET DCMTK::dcmseg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmseg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmseg.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmseg.lib"
   )
 
 # Import target "DCMTK::dcmtract" for configuration "Debug"
 set_property(TARGET DCMTK::dcmtract APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmtract PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmtract.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmtract.lib"
   )
 
 # Import target "DCMTK::dcmpmap" for configuration "Debug"
 set_property(TARGET DCMTK::dcmpmap APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmpmap PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmpmap.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmpmap.lib"
   )
 
 # Import target "DCMTK::dcmect" for configuration "Debug"
 set_property(TARGET DCMTK::dcmect APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(DCMTK::dcmect PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/build/lib/Debug/dcmect.lib"
+  IMPORTED_LOCATION_DEBUG "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Debug/dcmect.lib"
   )
 
 # Import target "DCMTK::ofstd_tests" for configuration "Release"
 set_property(TARGET DCMTK::ofstd_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::ofstd_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/ofstd_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/ofstd_tests.exe"
   )
 
 # Import target "DCMTK::dcm2xml" for configuration "Release"
 set_property(TARGET DCMTK::dcm2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcm2xml PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcm2xml.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcm2xml.exe"
   )
 
 # Import target "DCMTK::dcmconv" for configuration "Release"
 set_property(TARGET DCMTK::dcmconv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmconv PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmconv.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmconv.exe"
   )
 
 # Import target "DCMTK::dcmcrle" for configuration "Release"
 set_property(TARGET DCMTK::dcmcrle APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmcrle PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmcrle.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmcrle.exe"
   )
 
 # Import target "DCMTK::dcmdrle" for configuration "Release"
 set_property(TARGET DCMTK::dcmdrle APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdrle PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmdrle.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmdrle.exe"
   )
 
 # Import target "DCMTK::dcmdump" for configuration "Release"
 set_property(TARGET DCMTK::dcmdump APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdump PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmdump.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmdump.exe"
   )
 
 # Import target "DCMTK::dcmftest" for configuration "Release"
 set_property(TARGET DCMTK::dcmftest APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmftest PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmftest.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmftest.exe"
   )
 
 # Import target "DCMTK::dcmgpdir" for configuration "Release"
 set_property(TARGET DCMTK::dcmgpdir APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmgpdir PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmgpdir.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmgpdir.exe"
   )
 
 # Import target "DCMTK::dump2dcm" for configuration "Release"
 set_property(TARGET DCMTK::dump2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dump2dcm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dump2dcm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dump2dcm.exe"
   )
 
 # Import target "DCMTK::xml2dcm" for configuration "Release"
 set_property(TARGET DCMTK::xml2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::xml2dcm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/xml2dcm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/xml2dcm.exe"
   )
 
 # Import target "DCMTK::stl2dcm" for configuration "Release"
 set_property(TARGET DCMTK::stl2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::stl2dcm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/stl2dcm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/stl2dcm.exe"
   )
 
 # Import target "DCMTK::pdf2dcm" for configuration "Release"
 set_property(TARGET DCMTK::pdf2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::pdf2dcm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/pdf2dcm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/pdf2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2pdf" for configuration "Release"
 set_property(TARGET DCMTK::dcm2pdf APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcm2pdf PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcm2pdf.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcm2pdf.exe"
   )
 
 # Import target "DCMTK::img2dcm" for configuration "Release"
 set_property(TARGET DCMTK::img2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::img2dcm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/img2dcm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/img2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2json" for configuration "Release"
 set_property(TARGET DCMTK::dcm2json APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcm2json PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcm2json.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcm2json.exe"
   )
 
 # Import target "DCMTK::cda2dcm" for configuration "Release"
 set_property(TARGET DCMTK::cda2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::cda2dcm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/cda2dcm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/cda2dcm.exe"
   )
 
 # Import target "DCMTK::dcmodify" for configuration "Release"
 set_property(TARGET DCMTK::dcmodify APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmodify PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmodify.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmodify.exe"
   )
 
 # Import target "DCMTK::dcmdata_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmdata_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdata_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmdata_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmdata_tests.exe"
   )
 
 # Import target "DCMTK::dcmdspfn" for configuration "Release"
 set_property(TARGET DCMTK::dcmdspfn APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdspfn PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmdspfn.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmdspfn.exe"
   )
 
 # Import target "DCMTK::dcod2lum" for configuration "Release"
 set_property(TARGET DCMTK::dcod2lum APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcod2lum PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcod2lum.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcod2lum.exe"
   )
 
 # Import target "DCMTK::dconvlum" for configuration "Release"
 set_property(TARGET DCMTK::dconvlum APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dconvlum PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dconvlum.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dconvlum.exe"
   )
 
 # Import target "DCMTK::dcm2pnm" for configuration "Release"
 set_property(TARGET DCMTK::dcm2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcm2pnm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcm2pnm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcm2pnm.exe"
   )
 
 # Import target "DCMTK::dcmquant" for configuration "Release"
 set_property(TARGET DCMTK::dcmquant APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmquant PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmquant.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmquant.exe"
   )
 
 # Import target "DCMTK::dcmscale" for configuration "Release"
 set_property(TARGET DCMTK::dcmscale APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmscale PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmscale.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmscale.exe"
   )
 
 # Import target "DCMTK::dcmicmp" for configuration "Release"
 set_property(TARGET DCMTK::dcmicmp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmicmp PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmicmp.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmicmp.exe"
   )
 
 # Import target "DCMTK::dcmcjpeg" for configuration "Release"
 set_property(TARGET DCMTK::dcmcjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmcjpeg PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmcjpeg.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmcjpeg.exe"
   )
 
 # Import target "DCMTK::dcmdjpeg" for configuration "Release"
 set_property(TARGET DCMTK::dcmdjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdjpeg PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmdjpeg.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmdjpeg.exe"
   )
 
 # Import target "DCMTK::dcmj2pnm" for configuration "Release"
 set_property(TARGET DCMTK::dcmj2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmj2pnm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmj2pnm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmj2pnm.exe"
   )
 
 # Import target "DCMTK::dcmmkdir" for configuration "Release"
 set_property(TARGET DCMTK::dcmmkdir APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmmkdir PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmmkdir.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmmkdir.exe"
   )
 
 # Import target "DCMTK::dcmcjpls" for configuration "Release"
 set_property(TARGET DCMTK::dcmcjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmcjpls PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmcjpls.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmcjpls.exe"
   )
 
 # Import target "DCMTK::dcmdjpls" for configuration "Release"
 set_property(TARGET DCMTK::dcmdjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdjpls PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmdjpls.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmdjpls.exe"
   )
 
 # Import target "DCMTK::dcml2pnm" for configuration "Release"
 set_property(TARGET DCMTK::dcml2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcml2pnm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcml2pnm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcml2pnm.exe"
   )
 
 # Import target "DCMTK::dcmtls_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmtls_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmtls_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmtls_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmtls_tests.exe"
   )
 
 # Import target "DCMTK::dcmrecv" for configuration "Release"
 set_property(TARGET DCMTK::dcmrecv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmrecv PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmrecv.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmrecv.exe"
   )
 
 # Import target "DCMTK::dcmsend" for configuration "Release"
 set_property(TARGET DCMTK::dcmsend APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmsend PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmsend.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmsend.exe"
   )
 
 # Import target "DCMTK::echoscu" for configuration "Release"
 set_property(TARGET DCMTK::echoscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::echoscu PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/echoscu.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/echoscu.exe"
   )
 
 # Import target "DCMTK::findscu" for configuration "Release"
 set_property(TARGET DCMTK::findscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::findscu PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/findscu.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/findscu.exe"
   )
 
 # Import target "DCMTK::getscu" for configuration "Release"
 set_property(TARGET DCMTK::getscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::getscu PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/getscu.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/getscu.exe"
   )
 
 # Import target "DCMTK::movescu" for configuration "Release"
 set_property(TARGET DCMTK::movescu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::movescu PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/movescu.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/movescu.exe"
   )
 
 # Import target "DCMTK::storescp" for configuration "Release"
 set_property(TARGET DCMTK::storescp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::storescp PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/storescp.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/storescp.exe"
   )
 
 # Import target "DCMTK::storescu" for configuration "Release"
 set_property(TARGET DCMTK::storescu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::storescu PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/storescu.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/storescu.exe"
   )
 
 # Import target "DCMTK::termscu" for configuration "Release"
 set_property(TARGET DCMTK::termscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::termscu PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/termscu.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/termscu.exe"
   )
 
 # Import target "DCMTK::dcmnet_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmnet_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmnet_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmnet_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmnet_tests.exe"
   )
 
 # Import target "DCMTK::dsr2html" for configuration "Release"
 set_property(TARGET DCMTK::dsr2html APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dsr2html PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dsr2html.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dsr2html.exe"
   )
 
 # Import target "DCMTK::dsr2xml" for configuration "Release"
 set_property(TARGET DCMTK::dsr2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dsr2xml PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dsr2xml.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dsr2xml.exe"
   )
 
 # Import target "DCMTK::dsrdump" for configuration "Release"
 set_property(TARGET DCMTK::dsrdump APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dsrdump PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dsrdump.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dsrdump.exe"
   )
 
 # Import target "DCMTK::xml2dsr" for configuration "Release"
 set_property(TARGET DCMTK::xml2dsr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::xml2dsr PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/xml2dsr.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/xml2dsr.exe"
   )
 
 # Import target "DCMTK::mkreport" for configuration "Release"
 set_property(TARGET DCMTK::mkreport APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::mkreport PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/mkreport.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/mkreport.exe"
   )
 
 # Import target "DCMTK::dcmsr_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmsr_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmsr_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmsr_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmsr_tests.exe"
   )
 
 # Import target "DCMTK::dcmsign" for configuration "Release"
 set_property(TARGET DCMTK::dcmsign APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmsign PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmsign.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmsign.exe"
   )
 
 # Import target "DCMTK::wlmscpfs" for configuration "Release"
 set_property(TARGET DCMTK::wlmscpfs APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::wlmscpfs PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/wlmscpfs.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/wlmscpfs.exe"
   )
 
 # Import target "DCMTK::wltest" for configuration "Release"
 set_property(TARGET DCMTK::wltest APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::wltest PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/wltest.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/wltest.exe"
   )
 
 # Import target "DCMTK::dcmqrscp" for configuration "Release"
 set_property(TARGET DCMTK::dcmqrscp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmqrscp PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmqrscp.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmqrscp.exe"
   )
 
 # Import target "DCMTK::dcmqridx" for configuration "Release"
 set_property(TARGET DCMTK::dcmqridx APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmqridx PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmqridx.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmqridx.exe"
   )
 
 # Import target "DCMTK::dcmqrti" for configuration "Release"
 set_property(TARGET DCMTK::dcmqrti APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmqrti PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmqrti.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmqrti.exe"
   )
 
 # Import target "DCMTK::dcmmkcrv" for configuration "Release"
 set_property(TARGET DCMTK::dcmmkcrv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmmkcrv PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmmkcrv.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmmkcrv.exe"
   )
 
 # Import target "DCMTK::dcmmklut" for configuration "Release"
 set_property(TARGET DCMTK::dcmmklut APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmmklut PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmmklut.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmmklut.exe"
   )
 
 # Import target "DCMTK::dcmp2pgm" for configuration "Release"
 set_property(TARGET DCMTK::dcmp2pgm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmp2pgm PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmp2pgm.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmp2pgm.exe"
   )
 
 # Import target "DCMTK::dcmprscp" for configuration "Release"
 set_property(TARGET DCMTK::dcmprscp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmprscp PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmprscp.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmprscp.exe"
   )
 
 # Import target "DCMTK::dcmprscu" for configuration "Release"
 set_property(TARGET DCMTK::dcmprscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmprscu PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmprscu.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmprscu.exe"
   )
 
 # Import target "DCMTK::dcmpschk" for configuration "Release"
 set_property(TARGET DCMTK::dcmpschk APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmpschk PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmpschk.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmpschk.exe"
   )
 
 # Import target "DCMTK::dcmpsmk" for configuration "Release"
 set_property(TARGET DCMTK::dcmpsmk APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmpsmk PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmpsmk.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmpsmk.exe"
   )
 
 # Import target "DCMTK::dcmpsprt" for configuration "Release"
 set_property(TARGET DCMTK::dcmpsprt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmpsprt PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmpsprt.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmpsprt.exe"
   )
 
 # Import target "DCMTK::dcmpsrcv" for configuration "Release"
 set_property(TARGET DCMTK::dcmpsrcv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmpsrcv PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmpsrcv.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmpsrcv.exe"
   )
 
 # Import target "DCMTK::dcmpssnd" for configuration "Release"
 set_property(TARGET DCMTK::dcmpssnd APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmpssnd PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmpssnd.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmpssnd.exe"
   )
 
 # Import target "DCMTK::msgserv" for configuration "Release"
 set_property(TARGET DCMTK::msgserv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::msgserv PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/msgserv.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/msgserv.exe"
   )
 
 # Import target "DCMTK::drtdump" for configuration "Release"
 set_property(TARGET DCMTK::drtdump APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::drtdump PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/drtdump.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/drtdump.exe"
   )
 
 # Import target "DCMTK::drttest" for configuration "Release"
 set_property(TARGET DCMTK::drttest APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::drttest PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/drttest.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/drttest.exe"
   )
 
 # Import target "DCMTK::dcmrt_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmrt_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmrt_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmrt_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmrt_tests.exe"
   )
 
 # Import target "DCMTK::dcmiod_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmiod_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmiod_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmiod_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmiod_tests.exe"
   )
 
 # Import target "DCMTK::dcmfg_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmfg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmfg_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmfg_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmfg_tests.exe"
   )
 
 # Import target "DCMTK::dcmseg_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmseg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmseg_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmseg_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmseg_tests.exe"
   )
 
 # Import target "DCMTK::dcmect_tests" for configuration "Release"
 set_property(TARGET DCMTK::dcmect_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmect_tests PROPERTIES
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmect_tests.exe"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/bin/Release/dcmect_tests.exe"
   )
 
 # Import target "DCMTK::ofstd" for configuration "Release"
 set_property(TARGET DCMTK::ofstd APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::ofstd PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/ofstd.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/ofstd.lib"
   )
 
 # Import target "DCMTK::oflog" for configuration "Release"
 set_property(TARGET DCMTK::oflog APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::oflog PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/oflog.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/oflog.lib"
   )
 
 # Import target "DCMTK::dcmdata" for configuration "Release"
 set_property(TARGET DCMTK::dcmdata APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdata PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C;CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmdata.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmdata.lib"
   )
 
 # Import target "DCMTK::i2d" for configuration "Release"
 set_property(TARGET DCMTK::i2d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::i2d PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/i2d.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/i2d.lib"
   )
 
 # Import target "DCMTK::dcmimgle" for configuration "Release"
 set_property(TARGET DCMTK::dcmimgle APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmimgle PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmimgle.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmimgle.lib"
   )
 
 # Import target "DCMTK::dcmimage" for configuration "Release"
 set_property(TARGET DCMTK::dcmimage APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmimage PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmimage.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmimage.lib"
   )
 
 # Import target "DCMTK::dcmjpeg" for configuration "Release"
 set_property(TARGET DCMTK::dcmjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmjpeg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmjpeg.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmjpeg.lib"
   )
 
 # Import target "DCMTK::ijg8" for configuration "Release"
 set_property(TARGET DCMTK::ijg8 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::ijg8 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/ijg8.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/ijg8.lib"
   )
 
 # Import target "DCMTK::ijg12" for configuration "Release"
 set_property(TARGET DCMTK::ijg12 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::ijg12 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/ijg12.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/ijg12.lib"
   )
 
 # Import target "DCMTK::ijg16" for configuration "Release"
 set_property(TARGET DCMTK::ijg16 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::ijg16 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/ijg16.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/ijg16.lib"
   )
 
 # Import target "DCMTK::dcmjpls" for configuration "Release"
 set_property(TARGET DCMTK::dcmjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmjpls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmjpls.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmjpls.lib"
   )
 
 # Import target "DCMTK::dcmtkcharls" for configuration "Release"
 set_property(TARGET DCMTK::dcmtkcharls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmtkcharls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmtkcharls.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmtkcharls.lib"
   )
 
 # Import target "DCMTK::dcmtls" for configuration "Release"
 set_property(TARGET DCMTK::dcmtls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmtls.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmtls.lib"
   )
 
 # Import target "DCMTK::dcmnet" for configuration "Release"
 set_property(TARGET DCMTK::dcmnet APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmnet PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C;CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmnet.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmnet.lib"
   )
 
 # Import target "DCMTK::dcmsr" for configuration "Release"
 set_property(TARGET DCMTK::dcmsr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmsr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmsr.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmsr.lib"
   )
 
 # Import target "DCMTK::cmr" for configuration "Release"
 set_property(TARGET DCMTK::cmr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::cmr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/cmr.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/cmr.lib"
   )
 
 # Import target "DCMTK::dcmdsig" for configuration "Release"
 set_property(TARGET DCMTK::dcmdsig APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmdsig PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmdsig.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmdsig.lib"
   )
 
 # Import target "DCMTK::dcmwlm" for configuration "Release"
 set_property(TARGET DCMTK::dcmwlm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmwlm PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmwlm.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmwlm.lib"
   )
 
 # Import target "DCMTK::dcmqrdb" for configuration "Release"
 set_property(TARGET DCMTK::dcmqrdb APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmqrdb PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmqrdb.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmqrdb.lib"
   )
 
 # Import target "DCMTK::dcmpstat" for configuration "Release"
 set_property(TARGET DCMTK::dcmpstat APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmpstat PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmpstat.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmpstat.lib"
   )
 
 # Import target "DCMTK::dcmrt" for configuration "Release"
 set_property(TARGET DCMTK::dcmrt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmrt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmrt.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmrt.lib"
   )
 
 # Import target "DCMTK::dcmiod" for configuration "Release"
 set_property(TARGET DCMTK::dcmiod APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmiod PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmiod.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmiod.lib"
   )
 
 # Import target "DCMTK::dcmfg" for configuration "Release"
 set_property(TARGET DCMTK::dcmfg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmfg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmfg.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmfg.lib"
   )
 
 # Import target "DCMTK::dcmseg" for configuration "Release"
 set_property(TARGET DCMTK::dcmseg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmseg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmseg.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmseg.lib"
   )
 
 # Import target "DCMTK::dcmtract" for configuration "Release"
 set_property(TARGET DCMTK::dcmtract APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmtract PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmtract.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmtract.lib"
   )
 
 # Import target "DCMTK::dcmpmap" for configuration "Release"
 set_property(TARGET DCMTK::dcmpmap APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmpmap PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmpmap.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmpmap.lib"
   )
 
 # Import target "DCMTK::dcmect" for configuration "Release"
 set_property(TARGET DCMTK::dcmect APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(DCMTK::dcmect PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/build/lib/Release/dcmect.lib"
+  IMPORTED_LOCATION_RELEASE "C:/__Dev/dcmtk-3.6.7/vs2022/lib/Release/dcmect.lib"
   )
 
 # Import target "DCMTK::ofstd_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::ofstd_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::ofstd_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/ofstd_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/ofstd_tests.exe"
   )
 
 # Import target "DCMTK::dcm2xml" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcm2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcm2xml PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcm2xml.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcm2xml.exe"
   )
 
 # Import target "DCMTK::dcmconv" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmconv APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmconv PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmconv.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmconv.exe"
   )
 
 # Import target "DCMTK::dcmcrle" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmcrle APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmcrle PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmcrle.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmcrle.exe"
   )
 
 # Import target "DCMTK::dcmdrle" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdrle APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdrle PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmdrle.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmdrle.exe"
   )
 
 # Import target "DCMTK::dcmdump" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdump APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdump PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmdump.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmdump.exe"
   )
 
 # Import target "DCMTK::dcmftest" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmftest APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmftest PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmftest.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmftest.exe"
   )
 
 # Import target "DCMTK::dcmgpdir" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmgpdir APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmgpdir PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmgpdir.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmgpdir.exe"
   )
 
 # Import target "DCMTK::dump2dcm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dump2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dump2dcm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dump2dcm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dump2dcm.exe"
   )
 
 # Import target "DCMTK::xml2dcm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::xml2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::xml2dcm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/xml2dcm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/xml2dcm.exe"
   )
 
 # Import target "DCMTK::stl2dcm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::stl2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::stl2dcm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/stl2dcm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/stl2dcm.exe"
   )
 
 # Import target "DCMTK::pdf2dcm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::pdf2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::pdf2dcm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/pdf2dcm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/pdf2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2pdf" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcm2pdf APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcm2pdf PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcm2pdf.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcm2pdf.exe"
   )
 
 # Import target "DCMTK::img2dcm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::img2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::img2dcm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/img2dcm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/img2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2json" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcm2json APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcm2json PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcm2json.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcm2json.exe"
   )
 
 # Import target "DCMTK::cda2dcm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::cda2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::cda2dcm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/cda2dcm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/cda2dcm.exe"
   )
 
 # Import target "DCMTK::dcmodify" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmodify APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmodify PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmodify.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmodify.exe"
   )
 
 # Import target "DCMTK::dcmdata_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdata_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdata_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmdata_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmdata_tests.exe"
   )
 
 # Import target "DCMTK::dcmdspfn" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdspfn APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdspfn PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmdspfn.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmdspfn.exe"
   )
 
 # Import target "DCMTK::dcod2lum" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcod2lum APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcod2lum PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcod2lum.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcod2lum.exe"
   )
 
 # Import target "DCMTK::dconvlum" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dconvlum APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dconvlum PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dconvlum.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dconvlum.exe"
   )
 
 # Import target "DCMTK::dcm2pnm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcm2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcm2pnm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcm2pnm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcm2pnm.exe"
   )
 
 # Import target "DCMTK::dcmquant" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmquant APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmquant PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmquant.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmquant.exe"
   )
 
 # Import target "DCMTK::dcmscale" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmscale APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmscale PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmscale.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmscale.exe"
   )
 
 # Import target "DCMTK::dcmicmp" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmicmp APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmicmp PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmicmp.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmicmp.exe"
   )
 
 # Import target "DCMTK::dcmcjpeg" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmcjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmcjpeg PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmcjpeg.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmcjpeg.exe"
   )
 
 # Import target "DCMTK::dcmdjpeg" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdjpeg PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmdjpeg.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmdjpeg.exe"
   )
 
 # Import target "DCMTK::dcmj2pnm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmj2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmj2pnm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmj2pnm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmj2pnm.exe"
   )
 
 # Import target "DCMTK::dcmmkdir" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmmkdir APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmmkdir PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmmkdir.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmmkdir.exe"
   )
 
 # Import target "DCMTK::dcmcjpls" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmcjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmcjpls PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmcjpls.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmcjpls.exe"
   )
 
 # Import target "DCMTK::dcmdjpls" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdjpls PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmdjpls.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmdjpls.exe"
   )
 
 # Import target "DCMTK::dcml2pnm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcml2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcml2pnm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcml2pnm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcml2pnm.exe"
   )
 
 # Import target "DCMTK::dcmtls_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmtls_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmtls_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmtls_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmtls_tests.exe"
   )
 
 # Import target "DCMTK::dcmrecv" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmrecv APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmrecv PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmrecv.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmrecv.exe"
   )
 
 # Import target "DCMTK::dcmsend" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmsend APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmsend PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmsend.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmsend.exe"
   )
 
 # Import target "DCMTK::echoscu" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::echoscu APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::echoscu PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/echoscu.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/echoscu.exe"
   )
 
 # Import target "DCMTK::findscu" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::findscu APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::findscu PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/findscu.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/findscu.exe"
   )
 
 # Import target "DCMTK::getscu" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::getscu APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::getscu PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/getscu.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/getscu.exe"
   )
 
 # Import target "DCMTK::movescu" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::movescu APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::movescu PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/movescu.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/movescu.exe"
   )
 
 # Import target "DCMTK::storescp" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::storescp APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::storescp PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/storescp.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/storescp.exe"
   )
 
 # Import target "DCMTK::storescu" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::storescu APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::storescu PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/storescu.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/storescu.exe"
   )
 
 # Import target "DCMTK::termscu" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::termscu APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::termscu PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/termscu.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/termscu.exe"
   )
 
 # Import target "DCMTK::dcmnet_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmnet_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmnet_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmnet_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmnet_tests.exe"
   )
 
 # Import target "DCMTK::dsr2html" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dsr2html APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dsr2html PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dsr2html.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dsr2html.exe"
   )
 
 # Import target "DCMTK::dsr2xml" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dsr2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dsr2xml PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dsr2xml.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dsr2xml.exe"
   )
 
 # Import target "DCMTK::dsrdump" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dsrdump APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dsrdump PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dsrdump.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dsrdump.exe"
   )
 
 # Import target "DCMTK::xml2dsr" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::xml2dsr APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::xml2dsr PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/xml2dsr.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/xml2dsr.exe"
   )
 
 # Import target "DCMTK::mkreport" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::mkreport APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::mkreport PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/mkreport.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/mkreport.exe"
   )
 
 # Import target "DCMTK::dcmsr_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmsr_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmsr_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmsr_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmsr_tests.exe"
   )
 
 # Import target "DCMTK::dcmsign" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmsign APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmsign PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmsign.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmsign.exe"
   )
 
 # Import target "DCMTK::wlmscpfs" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::wlmscpfs APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::wlmscpfs PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/wlmscpfs.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/wlmscpfs.exe"
   )
 
 # Import target "DCMTK::wltest" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::wltest APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::wltest PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/wltest.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/wltest.exe"
   )
 
 # Import target "DCMTK::dcmqrscp" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmqrscp APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmqrscp PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmqrscp.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmqrscp.exe"
   )
 
 # Import target "DCMTK::dcmqridx" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmqridx APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmqridx PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmqridx.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmqridx.exe"
   )
 
 # Import target "DCMTK::dcmqrti" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmqrti APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmqrti PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmqrti.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmqrti.exe"
   )
 
 # Import target "DCMTK::dcmmkcrv" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmmkcrv APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmmkcrv PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmmkcrv.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmmkcrv.exe"
   )
 
 # Import target "DCMTK::dcmmklut" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmmklut APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmmklut PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmmklut.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmmklut.exe"
   )
 
 # Import target "DCMTK::dcmp2pgm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmp2pgm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmp2pgm PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmp2pgm.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmp2pgm.exe"
   )
 
 # Import target "DCMTK::dcmprscp" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmprscp APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmprscp PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmprscp.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmprscp.exe"
   )
 
 # Import target "DCMTK::dcmprscu" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmprscu APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmprscu PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmprscu.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmprscu.exe"
   )
 
 # Import target "DCMTK::dcmpschk" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmpschk APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmpschk PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmpschk.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmpschk.exe"
   )
 
 # Import target "DCMTK::dcmpsmk" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmpsmk APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmpsmk PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmpsmk.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmpsmk.exe"
   )
 
 # Import target "DCMTK::dcmpsprt" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmpsprt APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmpsprt PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmpsprt.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmpsprt.exe"
   )
 
 # Import target "DCMTK::dcmpsrcv" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmpsrcv APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmpsrcv PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmpsrcv.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmpsrcv.exe"
   )
 
 # Import target "DCMTK::dcmpssnd" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmpssnd APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmpssnd PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmpssnd.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmpssnd.exe"
   )
 
 # Import target "DCMTK::msgserv" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::msgserv APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::msgserv PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/msgserv.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/msgserv.exe"
   )
 
 # Import target "DCMTK::drtdump" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::drtdump APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::drtdump PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/drtdump.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/drtdump.exe"
   )
 
 # Import target "DCMTK::drttest" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::drttest APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::drttest PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/drttest.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/drttest.exe"
   )
 
 # Import target "DCMTK::dcmrt_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmrt_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmrt_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmrt_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmrt_tests.exe"
   )
 
 # Import target "DCMTK::dcmiod_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmiod_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmiod_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmiod_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmiod_tests.exe"
   )
 
 # Import target "DCMTK::dcmfg_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmfg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmfg_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmfg_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmfg_tests.exe"
   )
 
 # Import target "DCMTK::dcmseg_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmseg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmseg_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmseg_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmseg_tests.exe"
   )
 
 # Import target "DCMTK::dcmect_tests" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmect_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmect_tests PROPERTIES
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmect_tests.exe"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/bin/MinSizeRel/dcmect_tests.exe"
   )
 
 # Import target "DCMTK::ofstd" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::ofstd APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::ofstd PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/ofstd.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/ofstd.lib"
   )
 
 # Import target "DCMTK::oflog" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::oflog APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::oflog PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/oflog.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/oflog.lib"
   )
 
 # Import target "DCMTK::dcmdata" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdata APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdata PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C;CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmdata.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmdata.lib"
   )
 
 # Import target "DCMTK::i2d" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::i2d APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::i2d PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/i2d.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/i2d.lib"
   )
 
 # Import target "DCMTK::dcmimgle" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmimgle APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmimgle PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmimgle.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmimgle.lib"
   )
 
 # Import target "DCMTK::dcmimage" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmimage APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmimage PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmimage.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmimage.lib"
   )
 
 # Import target "DCMTK::dcmjpeg" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmjpeg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmjpeg.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmjpeg.lib"
   )
 
 # Import target "DCMTK::ijg8" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::ijg8 APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::ijg8 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/ijg8.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/ijg8.lib"
   )
 
 # Import target "DCMTK::ijg12" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::ijg12 APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::ijg12 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/ijg12.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/ijg12.lib"
   )
 
 # Import target "DCMTK::ijg16" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::ijg16 APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::ijg16 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/ijg16.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/ijg16.lib"
   )
 
 # Import target "DCMTK::dcmjpls" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmjpls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmjpls.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmjpls.lib"
   )
 
 # Import target "DCMTK::dcmtkcharls" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmtkcharls APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmtkcharls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmtkcharls.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmtkcharls.lib"
   )
 
 # Import target "DCMTK::dcmtls" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmtls APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmtls.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmtls.lib"
   )
 
 # Import target "DCMTK::dcmnet" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmnet APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmnet PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C;CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmnet.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmnet.lib"
   )
 
 # Import target "DCMTK::dcmsr" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmsr APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmsr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmsr.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmsr.lib"
   )
 
 # Import target "DCMTK::cmr" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::cmr APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::cmr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/cmr.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/cmr.lib"
   )
 
 # Import target "DCMTK::dcmdsig" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmdsig APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmdsig PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmdsig.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmdsig.lib"
   )
 
 # Import target "DCMTK::dcmwlm" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmwlm APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmwlm PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmwlm.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmwlm.lib"
   )
 
 # Import target "DCMTK::dcmqrdb" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmqrdb APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmqrdb PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmqrdb.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmqrdb.lib"
   )
 
 # Import target "DCMTK::dcmpstat" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmpstat APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmpstat PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmpstat.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmpstat.lib"
   )
 
 # Import target "DCMTK::dcmrt" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmrt APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmrt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmrt.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmrt.lib"
   )
 
 # Import target "DCMTK::dcmiod" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmiod APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmiod PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmiod.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmiod.lib"
   )
 
 # Import target "DCMTK::dcmfg" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmfg APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmfg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmfg.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmfg.lib"
   )
 
 # Import target "DCMTK::dcmseg" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmseg APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmseg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmseg.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmseg.lib"
   )
 
 # Import target "DCMTK::dcmtract" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmtract APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmtract PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmtract.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmtract.lib"
   )
 
 # Import target "DCMTK::dcmpmap" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmpmap APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmpmap PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmpmap.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmpmap.lib"
   )
 
 # Import target "DCMTK::dcmect" for configuration "MinSizeRel"
 set_property(TARGET DCMTK::dcmect APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(DCMTK::dcmect PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/build/lib/MinSizeRel/dcmect.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/__Dev/dcmtk-3.6.7/vs2022/lib/MinSizeRel/dcmect.lib"
   )
 
 # Import target "DCMTK::ofstd_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::ofstd_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::ofstd_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/ofstd_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/ofstd_tests.exe"
   )
 
 # Import target "DCMTK::dcm2xml" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcm2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcm2xml PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcm2xml.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcm2xml.exe"
   )
 
 # Import target "DCMTK::dcmconv" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmconv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmconv PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmconv.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmconv.exe"
   )
 
 # Import target "DCMTK::dcmcrle" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmcrle APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmcrle PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmcrle.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmcrle.exe"
   )
 
 # Import target "DCMTK::dcmdrle" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdrle APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdrle PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmdrle.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmdrle.exe"
   )
 
 # Import target "DCMTK::dcmdump" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdump APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdump PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmdump.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmdump.exe"
   )
 
 # Import target "DCMTK::dcmftest" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmftest APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmftest PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmftest.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmftest.exe"
   )
 
 # Import target "DCMTK::dcmgpdir" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmgpdir APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmgpdir PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmgpdir.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmgpdir.exe"
   )
 
 # Import target "DCMTK::dump2dcm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dump2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dump2dcm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dump2dcm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dump2dcm.exe"
   )
 
 # Import target "DCMTK::xml2dcm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::xml2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::xml2dcm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/xml2dcm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/xml2dcm.exe"
   )
 
 # Import target "DCMTK::stl2dcm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::stl2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::stl2dcm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/stl2dcm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/stl2dcm.exe"
   )
 
 # Import target "DCMTK::pdf2dcm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::pdf2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::pdf2dcm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/pdf2dcm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/pdf2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2pdf" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcm2pdf APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcm2pdf PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcm2pdf.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcm2pdf.exe"
   )
 
 # Import target "DCMTK::img2dcm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::img2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::img2dcm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/img2dcm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/img2dcm.exe"
   )
 
 # Import target "DCMTK::dcm2json" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcm2json APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcm2json PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcm2json.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcm2json.exe"
   )
 
 # Import target "DCMTK::cda2dcm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::cda2dcm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::cda2dcm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/cda2dcm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/cda2dcm.exe"
   )
 
 # Import target "DCMTK::dcmodify" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmodify APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmodify PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmodify.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmodify.exe"
   )
 
 # Import target "DCMTK::dcmdata_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdata_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdata_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmdata_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmdata_tests.exe"
   )
 
 # Import target "DCMTK::dcmdspfn" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdspfn APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdspfn PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmdspfn.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmdspfn.exe"
   )
 
 # Import target "DCMTK::dcod2lum" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcod2lum APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcod2lum PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcod2lum.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcod2lum.exe"
   )
 
 # Import target "DCMTK::dconvlum" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dconvlum APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dconvlum PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dconvlum.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dconvlum.exe"
   )
 
 # Import target "DCMTK::dcm2pnm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcm2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcm2pnm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcm2pnm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcm2pnm.exe"
   )
 
 # Import target "DCMTK::dcmquant" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmquant APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmquant PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmquant.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmquant.exe"
   )
 
 # Import target "DCMTK::dcmscale" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmscale APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmscale PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmscale.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmscale.exe"
   )
 
 # Import target "DCMTK::dcmicmp" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmicmp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmicmp PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmicmp.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmicmp.exe"
   )
 
 # Import target "DCMTK::dcmcjpeg" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmcjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmcjpeg PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmcjpeg.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmcjpeg.exe"
   )
 
 # Import target "DCMTK::dcmdjpeg" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdjpeg PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmdjpeg.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmdjpeg.exe"
   )
 
 # Import target "DCMTK::dcmj2pnm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmj2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmj2pnm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmj2pnm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmj2pnm.exe"
   )
 
 # Import target "DCMTK::dcmmkdir" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmmkdir APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmmkdir PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmmkdir.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmmkdir.exe"
   )
 
 # Import target "DCMTK::dcmcjpls" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmcjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmcjpls PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmcjpls.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmcjpls.exe"
   )
 
 # Import target "DCMTK::dcmdjpls" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdjpls PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmdjpls.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmdjpls.exe"
   )
 
 # Import target "DCMTK::dcml2pnm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcml2pnm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcml2pnm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcml2pnm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcml2pnm.exe"
   )
 
 # Import target "DCMTK::dcmtls_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmtls_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmtls_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmtls_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmtls_tests.exe"
   )
 
 # Import target "DCMTK::dcmrecv" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmrecv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmrecv PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmrecv.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmrecv.exe"
   )
 
 # Import target "DCMTK::dcmsend" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmsend APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmsend PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmsend.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmsend.exe"
   )
 
 # Import target "DCMTK::echoscu" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::echoscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::echoscu PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/echoscu.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/echoscu.exe"
   )
 
 # Import target "DCMTK::findscu" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::findscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::findscu PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/findscu.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/findscu.exe"
   )
 
 # Import target "DCMTK::getscu" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::getscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::getscu PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/getscu.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/getscu.exe"
   )
 
 # Import target "DCMTK::movescu" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::movescu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::movescu PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/movescu.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/movescu.exe"
   )
 
 # Import target "DCMTK::storescp" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::storescp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::storescp PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/storescp.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/storescp.exe"
   )
 
 # Import target "DCMTK::storescu" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::storescu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::storescu PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/storescu.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/storescu.exe"
   )
 
 # Import target "DCMTK::termscu" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::termscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::termscu PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/termscu.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/termscu.exe"
   )
 
 # Import target "DCMTK::dcmnet_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmnet_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmnet_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmnet_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmnet_tests.exe"
   )
 
 # Import target "DCMTK::dsr2html" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dsr2html APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dsr2html PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dsr2html.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dsr2html.exe"
   )
 
 # Import target "DCMTK::dsr2xml" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dsr2xml APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dsr2xml PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dsr2xml.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dsr2xml.exe"
   )
 
 # Import target "DCMTK::dsrdump" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dsrdump APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dsrdump PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dsrdump.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dsrdump.exe"
   )
 
 # Import target "DCMTK::xml2dsr" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::xml2dsr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::xml2dsr PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/xml2dsr.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/xml2dsr.exe"
   )
 
 # Import target "DCMTK::mkreport" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::mkreport APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::mkreport PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/mkreport.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/mkreport.exe"
   )
 
 # Import target "DCMTK::dcmsr_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmsr_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmsr_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmsr_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmsr_tests.exe"
   )
 
 # Import target "DCMTK::dcmsign" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmsign APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmsign PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmsign.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmsign.exe"
   )
 
 # Import target "DCMTK::wlmscpfs" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::wlmscpfs APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::wlmscpfs PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/wlmscpfs.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/wlmscpfs.exe"
   )
 
 # Import target "DCMTK::wltest" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::wltest APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::wltest PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/wltest.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/wltest.exe"
   )
 
 # Import target "DCMTK::dcmqrscp" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmqrscp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmqrscp PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmqrscp.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmqrscp.exe"
   )
 
 # Import target "DCMTK::dcmqridx" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmqridx APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmqridx PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmqridx.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmqridx.exe"
   )
 
 # Import target "DCMTK::dcmqrti" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmqrti APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmqrti PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmqrti.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmqrti.exe"
   )
 
 # Import target "DCMTK::dcmmkcrv" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmmkcrv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmmkcrv PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmmkcrv.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmmkcrv.exe"
   )
 
 # Import target "DCMTK::dcmmklut" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmmklut APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmmklut PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmmklut.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmmklut.exe"
   )
 
 # Import target "DCMTK::dcmp2pgm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmp2pgm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmp2pgm PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmp2pgm.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmp2pgm.exe"
   )
 
 # Import target "DCMTK::dcmprscp" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmprscp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmprscp PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmprscp.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmprscp.exe"
   )
 
 # Import target "DCMTK::dcmprscu" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmprscu APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmprscu PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmprscu.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmprscu.exe"
   )
 
 # Import target "DCMTK::dcmpschk" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmpschk APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmpschk PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmpschk.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmpschk.exe"
   )
 
 # Import target "DCMTK::dcmpsmk" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmpsmk APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmpsmk PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmpsmk.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmpsmk.exe"
   )
 
 # Import target "DCMTK::dcmpsprt" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmpsprt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmpsprt PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmpsprt.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmpsprt.exe"
   )
 
 # Import target "DCMTK::dcmpsrcv" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmpsrcv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmpsrcv PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmpsrcv.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmpsrcv.exe"
   )
 
 # Import target "DCMTK::dcmpssnd" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmpssnd APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmpssnd PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmpssnd.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmpssnd.exe"
   )
 
 # Import target "DCMTK::msgserv" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::msgserv APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::msgserv PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/msgserv.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/msgserv.exe"
   )
 
 # Import target "DCMTK::drtdump" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::drtdump APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::drtdump PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/drtdump.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/drtdump.exe"
   )
 
 # Import target "DCMTK::drttest" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::drttest APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::drttest PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/drttest.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/drttest.exe"
   )
 
 # Import target "DCMTK::dcmrt_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmrt_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmrt_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmrt_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmrt_tests.exe"
   )
 
 # Import target "DCMTK::dcmiod_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmiod_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmiod_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmiod_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmiod_tests.exe"
   )
 
 # Import target "DCMTK::dcmfg_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmfg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmfg_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmfg_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmfg_tests.exe"
   )
 
 # Import target "DCMTK::dcmseg_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmseg_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmseg_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmseg_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmseg_tests.exe"
   )
 
 # Import target "DCMTK::dcmect_tests" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmect_tests APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmect_tests PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmect_tests.exe"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/bin/RelWithDebInfo/dcmect_tests.exe"
   )
 
 # Import target "DCMTK::ofstd" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::ofstd APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::ofstd PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/ofstd.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/ofstd.lib"
   )
 
 # Import target "DCMTK::oflog" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::oflog APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::oflog PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/oflog.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/oflog.lib"
   )
 
 # Import target "DCMTK::dcmdata" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdata APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdata PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C;CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmdata.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmdata.lib"
   )
 
 # Import target "DCMTK::i2d" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::i2d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::i2d PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/i2d.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/i2d.lib"
   )
 
 # Import target "DCMTK::dcmimgle" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmimgle APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmimgle PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmimgle.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmimgle.lib"
   )
 
 # Import target "DCMTK::dcmimage" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmimage APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmimage PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmimage.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmimage.lib"
   )
 
 # Import target "DCMTK::dcmjpeg" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmjpeg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmjpeg.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmjpeg.lib"
   )
 
 # Import target "DCMTK::ijg8" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::ijg8 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::ijg8 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/ijg8.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/ijg8.lib"
   )
 
 # Import target "DCMTK::ijg12" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::ijg12 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::ijg12 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/ijg12.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/ijg12.lib"
   )
 
 # Import target "DCMTK::ijg16" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::ijg16 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::ijg16 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/ijg16.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/ijg16.lib"
   )
 
 # Import target "DCMTK::dcmjpls" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmjpls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmjpls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmjpls.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmjpls.lib"
   )
 
 # Import target "DCMTK::dcmtkcharls" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmtkcharls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmtkcharls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmtkcharls.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmtkcharls.lib"
   )
 
 # Import target "DCMTK::dcmtls" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmtls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmtls.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmtls.lib"
   )
 
 # Import target "DCMTK::dcmnet" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmnet APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmnet PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C;CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmnet.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmnet.lib"
   )
 
 # Import target "DCMTK::dcmsr" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmsr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmsr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmsr.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmsr.lib"
   )
 
 # Import target "DCMTK::cmr" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::cmr APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::cmr PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/cmr.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/cmr.lib"
   )
 
 # Import target "DCMTK::dcmdsig" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmdsig APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmdsig PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmdsig.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmdsig.lib"
   )
 
 # Import target "DCMTK::dcmwlm" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmwlm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmwlm PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmwlm.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmwlm.lib"
   )
 
 # Import target "DCMTK::dcmqrdb" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmqrdb APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmqrdb PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmqrdb.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmqrdb.lib"
   )
 
 # Import target "DCMTK::dcmpstat" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmpstat APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmpstat PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmpstat.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmpstat.lib"
   )
 
 # Import target "DCMTK::dcmrt" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmrt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmrt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmrt.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmrt.lib"
   )
 
 # Import target "DCMTK::dcmiod" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmiod APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmiod PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmiod.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmiod.lib"
   )
 
 # Import target "DCMTK::dcmfg" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmfg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmfg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmfg.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmfg.lib"
   )
 
 # Import target "DCMTK::dcmseg" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmseg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmseg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmseg.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmseg.lib"
   )
 
 # Import target "DCMTK::dcmtract" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmtract APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmtract PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmtract.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmtract.lib"
   )
 
 # Import target "DCMTK::dcmpmap" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmpmap APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmpmap PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmpmap.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmpmap.lib"
   )
 
 # Import target "DCMTK::dcmect" for configuration "RelWithDebInfo"
 set_property(TARGET DCMTK::dcmect APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(DCMTK::dcmect PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/build/lib/RelWithDebInfo/dcmect.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/__Dev/dcmtk-3.6.7/vs2022/lib/RelWithDebInfo/dcmect.lib"
   )
 
 # This file does not depend on other imported targets which have

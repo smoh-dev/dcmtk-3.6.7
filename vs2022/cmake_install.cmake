@@ -34,8 +34,8 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "include" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dcmtk/config" TYPE FILE FILES
-    "C:/__Dev/dcmtk-3.6.7/build/config/include/dcmtk/config/osconfig.h"
-    "C:/__Dev/dcmtk-3.6.7/build/config/include/dcmtk/config/arith.h"
+    "C:/__Dev/dcmtk-3.6.7/vs2022/config/include/dcmtk/config/osconfig.h"
+    "C:/__Dev/dcmtk-3.6.7/vs2022/config/include/dcmtk/config/arith.h"
     )
 endif()
 
@@ -58,7 +58,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "cmake" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/DCMTKTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/DCMTKTargets.cmake"
-         "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets.cmake")
+         "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/DCMTKTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -71,25 +71,25 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "cmake" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-minsizerel.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-relwithdebinfo.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/DCMTKTargets-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "cmake" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES
-    "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/DCMTKConfig.cmake"
-    "C:/__Dev/dcmtk-3.6.7/build/DCMTKConfigVersion.cmake"
+    "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/DCMTKConfig.cmake"
+    "C:/__Dev/dcmtk-3.6.7/vs2022/DCMTKConfigVersion.cmake"
     )
 endif()
 
@@ -102,34 +102,34 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:/Program Files/DCMTK/lib/pkgconfig" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/build/dcmtk.pc")
+  file(INSTALL DESTINATION "C:/Program Files/DCMTK/lib/pkgconfig" TYPE FILE FILES "C:/__Dev/dcmtk-3.6.7/vs2022/dcmtk.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/__Dev/dcmtk-3.6.7/build/config/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/doxygen/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/ofstd/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/oflog/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmdata/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmimgle/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmimage/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmjpeg/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmjpls/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmtls/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmnet/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmsr/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmsign/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmwlm/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmqrdb/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpstat/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmrt/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmiod/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmfg/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmseg/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmtract/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpmap/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmect/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/config/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/doxygen/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/ofstd/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/oflog/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmdata/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmimgle/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmimage/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmjpeg/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmjpls/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmtls/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmnet/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmsr/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmsign/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmwlm/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmqrdb/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpstat/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmrt/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmiod/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmfg/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmseg/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmtract/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpmap/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmect/cmake_install.cmake")
 
 endif()
 
@@ -141,5 +141,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/__Dev/dcmtk-3.6.7/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/__Dev/dcmtk-3.6.7/vs2022/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

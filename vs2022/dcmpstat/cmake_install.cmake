@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpstat/libsrc/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpstat/apps/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpstat/include/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpstat/data/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpstat/etc/cmake_install.cmake")
-  include("C:/__Dev/dcmtk-3.6.7/build/dcmpstat/tests/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpstat/libsrc/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpstat/apps/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpstat/include/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpstat/data/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpstat/etc/cmake_install.cmake")
+  include("C:/__Dev/dcmtk-3.6.7/vs2022/dcmpstat/tests/cmake_install.cmake")
 
 endif()
 
