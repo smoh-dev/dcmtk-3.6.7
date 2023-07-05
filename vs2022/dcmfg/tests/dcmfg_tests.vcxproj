@@ -114,7 +114,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Debug\dcmfg.lib;..\..\lib\Debug\dcmdata.lib;..\..\lib\Debug\oflog.lib;..\..\lib\Debug\ofstd.lib;..\..\lib\Debug\dcmiod.lib;..\..\lib\Debug\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_d.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_d.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_d.lib;..\..\lib\Debug\oflog.lib;..\..\lib\Debug\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Debug\dcmfg.lib;..\..\lib\Debug\dcmiod.lib;..\..\lib\Debug\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_d.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_d.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_d.lib;..\..\lib\Debug\oflog.lib;..\..\lib\Debug\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 setargv</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -157,7 +157,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Release\dcmfg.lib;..\..\lib\Release\dcmdata.lib;..\..\lib\Release\oflog.lib;..\..\lib\Release\ofstd.lib;..\..\lib\Release\dcmiod.lib;..\..\lib\Release\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_o.lib;..\..\lib\Release\oflog.lib;..\..\lib\Release\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Release\dcmfg.lib;..\..\lib\Release\dcmiod.lib;..\..\lib\Release\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_o.lib;..\..\lib\Release\oflog.lib;..\..\lib\Release\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 setargv</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -200,7 +200,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\MinSizeRel\dcmfg.lib;..\..\lib\MinSizeRel\dcmdata.lib;..\..\lib\MinSizeRel\oflog.lib;..\..\lib\MinSizeRel\ofstd.lib;..\..\lib\MinSizeRel\dcmiod.lib;..\..\lib\MinSizeRel\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_o.lib;..\..\lib\MinSizeRel\oflog.lib;..\..\lib\MinSizeRel\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\dcmfg.lib;..\..\lib\MinSizeRel\dcmiod.lib;..\..\lib\MinSizeRel\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_o.lib;..\..\lib\MinSizeRel\oflog.lib;..\..\lib\MinSizeRel\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 setargv</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -242,7 +242,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\RelWithDebInfo\dcmfg.lib;..\..\lib\RelWithDebInfo\dcmdata.lib;..\..\lib\RelWithDebInfo\oflog.lib;..\..\lib\RelWithDebInfo\ofstd.lib;..\..\lib\RelWithDebInfo\dcmiod.lib;..\..\lib\RelWithDebInfo\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_o.lib;..\..\lib\RelWithDebInfo\oflog.lib;..\..\lib\RelWithDebInfo\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\dcmfg.lib;..\..\lib\RelWithDebInfo\dcmiod.lib;..\..\lib\RelWithDebInfo\dcmdata.lib;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\lib\zlib_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\libxml2_o.lib;C:\__Dev\dcmtk-3.6.7\external\libxml2-iconv-2.9.13\lib\iconv_o.lib;..\..\lib\RelWithDebInfo\oflog.lib;..\..\lib\RelWithDebInfo\ofstd.lib;iphlpapi.lib;ws2_32.lib;netapi32.lib;wsock32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4099 setargv</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>

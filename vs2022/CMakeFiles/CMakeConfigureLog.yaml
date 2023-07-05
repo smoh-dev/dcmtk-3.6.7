@@ -20696,3 +20696,76 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "CMake/dcmtkPrepare.cmake:419 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:38 (include)"
+    checks:
+      - "Performing Test GXX_SUPPORTS_VISIBILITY"
+    directories:
+      source: "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/CMakeScratch/TryCompile-ht9usa"
+      binary: "C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/CMakeScratch/TryCompile-ht9usa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/CMake/share/cmake-3.26/Modules;C:/__Dev/dcmtk-3.6.7//CMake/"
+    buildResult:
+      variable: "GXX_SUPPORTS_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/CMakeScratch/TryCompile-ht9usa
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1fde6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        빌드 시작: 2023-07-05 오전 11:25:27
+        
+        1 노드의 "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\cmTC_1fde6.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_1fde6.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_1fde6.dir\\Debug\\cmTC_1fde6.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1fde6.dir\\Debug\\cmTC_1fde6.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\__Dev\\vcpkg\\installed\\x64-windows\\"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\__Dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D GXX_SUPPORTS_VISIBILITY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1fde6.dir\\Debug\\\\" /Fd"cmTC_1fde6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  -fvisibility=hidden "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\src.cxx"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
+          src.cxx
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /I"C:\\__Dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D GXX_SUPPORTS_VISIBILITY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1fde6.dir\\Debug\\\\" /Fd"cmTC_1fde6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue  -fvisibility=hidden "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\src.cxx"
+        cl : 명령줄  warning D9002: 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다. [C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\cmTC_1fde6.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\Debug\\cmTC_1fde6.exe" /INCREMENTAL /ILK:"cmTC_1fde6.dir\\Debug\\cmTC_1fde6.ilk" /NOLOGO /LIBPATH:"C:\\__Dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\__Dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\__Dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/CMakeScratch/TryCompile-ht9usa/Debug/cmTC_1fde6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/__Dev/dcmtk-3.6.7/vs2022/CMakeFiles/CMakeScratch/TryCompile-ht9usa/Debug/cmTC_1fde6.lib" /MACHINE:X64  /machine:x64 cmTC_1fde6.dir\\Debug\\src.obj
+          cmTC_1fde6.vcxproj -> C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\Debug\\cmTC_1fde6.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\__Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\Debug\\cmTC_1fde6.exe" "C:\\__Dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_1fde6.dir\\Debug\\cmTC_1fde6.tlog\\cmTC_1fde6.write.1u.tlog" "cmTC_1fde6.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+          배치 파일이 아닙니다.
+          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\__Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\Debug\\cmTC_1fde6.exe" "C:\\__Dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_1fde6.dir\\Debug\\cmTC_1fde6.tlog\\cmTC_1fde6.write.1u.tlog" "cmTC_1fde6.dir\\Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\__Dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\Debug\\cmTC_1fde6.exe" "C:\\__Dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_1fde6.dir\\Debug\\cmTC_1fde6.tlog\\cmTC_1fde6.write.1u.tlog" "cmTC_1fde6.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          "cmTC_1fde6.dir\\Debug\\cmTC_1fde6.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_1fde6.dir\\Debug\\cmTC_1fde6.tlog\\cmTC_1fde6.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\cmTC_1fde6.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+        
+        "C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\cmTC_1fde6.vcxproj"(기본 대상)(1)->
+        (ClCompile 대상) -> 
+          cl : 명령줄  warning D9002: 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다. [C:\\__Dev\\dcmtk-3.6.7\\vs2022\\CMakeFiles\\CMakeScratch\\TryCompile-ht9usa\\cmTC_1fde6.vcxproj]
+        
+            경고 1개
+            오류 0개
+        
+        경과 시간: 00:00:01.55
+        
+      exitCode: 0
+...

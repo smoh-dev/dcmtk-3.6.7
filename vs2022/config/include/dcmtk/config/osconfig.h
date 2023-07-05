@@ -13,7 +13,7 @@
 #endif
 
 /* Define when building a shared library */
-/* #undef DCMTK_SHARED */
+#define DCMTK_SHARED ON
 
 /* Define when building the whole toolkit as a single shared library */
 /* #undef DCMTK_BUILD_SINGLE_SHARED_LIBRARY */

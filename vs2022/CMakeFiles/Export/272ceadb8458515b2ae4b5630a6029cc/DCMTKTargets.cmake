@@ -68,7 +68,7 @@ set_target_properties(DCMTK::DCMTK PROPERTIES
 )
 
 # Create imported target DCMTK::ofstd
-add_library(DCMTK::ofstd STATIC IMPORTED)
+add_library(DCMTK::ofstd SHARED IMPORTED)
 
 set_target_properties(DCMTK::ofstd PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -79,7 +79,7 @@ set_target_properties(DCMTK::ofstd PROPERTIES
 add_executable(DCMTK::ofstd_tests IMPORTED)
 
 # Create imported target DCMTK::oflog
-add_library(DCMTK::oflog STATIC IMPORTED)
+add_library(DCMTK::oflog SHARED IMPORTED)
 
 set_target_properties(DCMTK::oflog PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -87,7 +87,7 @@ set_target_properties(DCMTK::oflog PROPERTIES
 )
 
 # Create imported target DCMTK::dcmdata
-add_library(DCMTK::dcmdata STATIC IMPORTED)
+add_library(DCMTK::dcmdata SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmdata PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -95,7 +95,7 @@ set_target_properties(DCMTK::dcmdata PROPERTIES
 )
 
 # Create imported target DCMTK::i2d
-add_library(DCMTK::i2d STATIC IMPORTED)
+add_library(DCMTK::i2d SHARED IMPORTED)
 
 set_target_properties(DCMTK::i2d PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -154,7 +154,7 @@ add_executable(DCMTK::dcmodify IMPORTED)
 add_executable(DCMTK::dcmdata_tests IMPORTED)
 
 # Create imported target DCMTK::dcmimgle
-add_library(DCMTK::dcmimgle STATIC IMPORTED)
+add_library(DCMTK::dcmimgle SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmimgle PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -171,7 +171,7 @@ add_executable(DCMTK::dcod2lum IMPORTED)
 add_executable(DCMTK::dconvlum IMPORTED)
 
 # Create imported target DCMTK::dcmimage
-add_library(DCMTK::dcmimage STATIC IMPORTED)
+add_library(DCMTK::dcmimage SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmimage PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -191,7 +191,7 @@ add_executable(DCMTK::dcmscale IMPORTED)
 add_executable(DCMTK::dcmicmp IMPORTED)
 
 # Create imported target DCMTK::dcmjpeg
-add_library(DCMTK::dcmjpeg STATIC IMPORTED)
+add_library(DCMTK::dcmjpeg SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmjpeg PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -199,21 +199,21 @@ set_target_properties(DCMTK::dcmjpeg PROPERTIES
 )
 
 # Create imported target DCMTK::ijg8
-add_library(DCMTK::ijg8 STATIC IMPORTED)
+add_library(DCMTK::ijg8 SHARED IMPORTED)
 
 set_target_properties(DCMTK::ijg8 PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
 )
 
 # Create imported target DCMTK::ijg12
-add_library(DCMTK::ijg12 STATIC IMPORTED)
+add_library(DCMTK::ijg12 SHARED IMPORTED)
 
 set_target_properties(DCMTK::ijg12 PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
 )
 
 # Create imported target DCMTK::ijg16
-add_library(DCMTK::ijg16 STATIC IMPORTED)
+add_library(DCMTK::ijg16 SHARED IMPORTED)
 
 set_target_properties(DCMTK::ijg16 PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -232,7 +232,7 @@ add_executable(DCMTK::dcmj2pnm IMPORTED)
 add_executable(DCMTK::dcmmkdir IMPORTED)
 
 # Create imported target DCMTK::dcmjpls
-add_library(DCMTK::dcmjpls STATIC IMPORTED)
+add_library(DCMTK::dcmjpls SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmjpls PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -240,7 +240,7 @@ set_target_properties(DCMTK::dcmjpls PROPERTIES
 )
 
 # Create imported target DCMTK::dcmtkcharls
-add_library(DCMTK::dcmtkcharls STATIC IMPORTED)
+add_library(DCMTK::dcmtkcharls SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmtkcharls PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -257,7 +257,7 @@ add_executable(DCMTK::dcmdjpls IMPORTED)
 add_executable(DCMTK::dcml2pnm IMPORTED)
 
 # Create imported target DCMTK::dcmtls
-add_library(DCMTK::dcmtls STATIC IMPORTED)
+add_library(DCMTK::dcmtls SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmtls PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -268,7 +268,7 @@ set_target_properties(DCMTK::dcmtls PROPERTIES
 add_executable(DCMTK::dcmtls_tests IMPORTED)
 
 # Create imported target DCMTK::dcmnet
-add_library(DCMTK::dcmnet STATIC IMPORTED)
+add_library(DCMTK::dcmnet SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmnet PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -306,7 +306,7 @@ add_executable(DCMTK::termscu IMPORTED)
 add_executable(DCMTK::dcmnet_tests IMPORTED)
 
 # Create imported target DCMTK::dcmsr
-add_library(DCMTK::dcmsr STATIC IMPORTED)
+add_library(DCMTK::dcmsr SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmsr PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -314,7 +314,7 @@ set_target_properties(DCMTK::dcmsr PROPERTIES
 )
 
 # Create imported target DCMTK::cmr
-add_library(DCMTK::cmr STATIC IMPORTED)
+add_library(DCMTK::cmr SHARED IMPORTED)
 
 set_target_properties(DCMTK::cmr PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -340,7 +340,7 @@ add_executable(DCMTK::mkreport IMPORTED)
 add_executable(DCMTK::dcmsr_tests IMPORTED)
 
 # Create imported target DCMTK::dcmdsig
-add_library(DCMTK::dcmdsig STATIC IMPORTED)
+add_library(DCMTK::dcmdsig SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmdsig PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -351,7 +351,7 @@ set_target_properties(DCMTK::dcmdsig PROPERTIES
 add_executable(DCMTK::dcmsign IMPORTED)
 
 # Create imported target DCMTK::dcmwlm
-add_library(DCMTK::dcmwlm STATIC IMPORTED)
+add_library(DCMTK::dcmwlm SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmwlm PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -365,7 +365,7 @@ add_executable(DCMTK::wlmscpfs IMPORTED)
 add_executable(DCMTK::wltest IMPORTED)
 
 # Create imported target DCMTK::dcmqrdb
-add_library(DCMTK::dcmqrdb STATIC IMPORTED)
+add_library(DCMTK::dcmqrdb SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmqrdb PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -382,7 +382,7 @@ add_executable(DCMTK::dcmqridx IMPORTED)
 add_executable(DCMTK::dcmqrti IMPORTED)
 
 # Create imported target DCMTK::dcmpstat
-add_library(DCMTK::dcmpstat STATIC IMPORTED)
+add_library(DCMTK::dcmpstat SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmpstat PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -423,7 +423,7 @@ add_executable(DCMTK::dcmpssnd IMPORTED)
 add_executable(DCMTK::msgserv IMPORTED)
 
 # Create imported target DCMTK::dcmrt
-add_library(DCMTK::dcmrt STATIC IMPORTED)
+add_library(DCMTK::dcmrt SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmrt PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -440,7 +440,7 @@ add_executable(DCMTK::drttest IMPORTED)
 add_executable(DCMTK::dcmrt_tests IMPORTED)
 
 # Create imported target DCMTK::dcmiod
-add_library(DCMTK::dcmiod STATIC IMPORTED)
+add_library(DCMTK::dcmiod SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmiod PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -451,7 +451,7 @@ set_target_properties(DCMTK::dcmiod PROPERTIES
 add_executable(DCMTK::dcmiod_tests IMPORTED)
 
 # Create imported target DCMTK::dcmfg
-add_library(DCMTK::dcmfg STATIC IMPORTED)
+add_library(DCMTK::dcmfg SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmfg PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -462,7 +462,7 @@ set_target_properties(DCMTK::dcmfg PROPERTIES
 add_executable(DCMTK::dcmfg_tests IMPORTED)
 
 # Create imported target DCMTK::dcmseg
-add_library(DCMTK::dcmseg STATIC IMPORTED)
+add_library(DCMTK::dcmseg SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmseg PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -473,7 +473,7 @@ set_target_properties(DCMTK::dcmseg PROPERTIES
 add_executable(DCMTK::dcmseg_tests IMPORTED)
 
 # Create imported target DCMTK::dcmtract
-add_library(DCMTK::dcmtract STATIC IMPORTED)
+add_library(DCMTK::dcmtract SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmtract PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -481,7 +481,7 @@ set_target_properties(DCMTK::dcmtract PROPERTIES
 )
 
 # Create imported target DCMTK::dcmpmap
-add_library(DCMTK::dcmpmap STATIC IMPORTED)
+add_library(DCMTK::dcmpmap SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmpmap PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
@@ -489,7 +489,7 @@ set_target_properties(DCMTK::dcmpmap PROPERTIES
 )
 
 # Create imported target DCMTK::dcmect
-add_library(DCMTK::dcmect STATIC IMPORTED)
+add_library(DCMTK::dcmect SHARED IMPORTED)
 
 set_target_properties(DCMTK::dcmect PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
