@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/__Dev/dcmtk-3.6.7/dcmrt/tests
+# Build directory: C:/__Dev/dcmtk-3.6.7/build/dcmrt/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(dcmrt_search "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_search" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_search PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(dcmrt_search "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_search" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_search PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(dcmrt_search "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_search" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_search PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(dcmrt_search "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_search" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_search PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+else()
+  add_test(dcmrt_search NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(dcmrt_contour "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_contour" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_contour PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(dcmrt_contour "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_contour" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_contour PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(dcmrt_contour "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_contour" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_contour PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(dcmrt_contour "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmrt_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmrt_contour" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmrt_contour PROPERTIES  LABELS "dcmrt" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmrt_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;14;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmrt/tests/CMakeLists.txt;0;")
+else()
+  add_test(dcmrt_contour NOT_AVAILABLE)
+endif()

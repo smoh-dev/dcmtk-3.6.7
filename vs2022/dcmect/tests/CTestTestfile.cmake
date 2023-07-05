@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: C:/__Dev/dcmtk-3.6.7/dcmect/tests
+# Build directory: C:/__Dev/dcmtk-3.6.7/build/dcmect/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(dcmect_huge_concat "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_huge_concat" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_huge_concat PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(dcmect_huge_concat "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_huge_concat" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_huge_concat PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(dcmect_huge_concat "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_huge_concat" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_huge_concat PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(dcmect_huge_concat "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_huge_concat" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_huge_concat PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+else()
+  add_test(dcmect_huge_concat NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(dcmect_roundtrip "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_roundtrip" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_roundtrip PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Debug/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(dcmect_roundtrip "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_roundtrip" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_roundtrip PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/Release/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(dcmect_roundtrip "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_roundtrip" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_roundtrip PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/MinSizeRel/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(dcmect_roundtrip "C:/Program Files/CMake/bin/cmake.exe" "-DDCMTK_CTEST_TESTCASE_COMMAND=C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmect_tests.exe" "-DDCMTK_CTEST_TEST_NAME=dcmect_roundtrip" "-P" "C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/dcmtkCTestRun.cmake")
+  set_tests_properties(dcmect_roundtrip PROPERTIES  LABELS "dcmect" REQUIRED_FILES "C:/__Dev/dcmtk-3.6.7/build/bin/RelWithDebInfo/dcmect_tests.exe" _BACKTRACE_TRIPLES "C:/__Dev/dcmtk-3.6.7/CMake/dcmtkMacros.cmake;31;add_test;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;12;DCMTK_ADD_TESTS;C:/__Dev/dcmtk-3.6.7/dcmect/tests/CMakeLists.txt;0;")
+else()
+  add_test(dcmect_roundtrip NOT_AVAILABLE)
+endif()

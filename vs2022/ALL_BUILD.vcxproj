@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C826545-D92A-35ED-8028-6D5F874F3C38}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\__Dev\dcmtk-3.6.7\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\3rdparty.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CTest\dcmtkCTestRun.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\CheckCMakeCommandExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CheckFunctionWithHeaderExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\DCMTKConfig.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\GenerateCMakeExports.cmake;C:\__Dev\dcmtk-3.6.7\CMake\GenerateDCMTKConfigure.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtk.pc.in;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkAfterModules.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkMacros.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkPrepare.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryCompile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryRun.cmake;C:\__Dev\dcmtk-3.6.7\CMake\osconfig.h.in;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\__Dev\dcmtk-3.6.7\config\tests\iconv.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\3rdparty.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CTest\dcmtkCTestRun.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\CheckCMakeCommandExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CheckFunctionWithHeaderExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\DCMTKConfig.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\GenerateCMakeExports.cmake;C:\__Dev\dcmtk-3.6.7\CMake\GenerateDCMTKConfigure.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtk.pc.in;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkAfterModules.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkMacros.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkPrepare.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryCompile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryRun.cmake;C:\__Dev\dcmtk-3.6.7\CMake\osconfig.h.in;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\__Dev\dcmtk-3.6.7\config\tests\iconv.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\3rdparty.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CTest\dcmtkCTestRun.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\CheckCMakeCommandExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CheckFunctionWithHeaderExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\DCMTKConfig.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\GenerateCMakeExports.cmake;C:\__Dev\dcmtk-3.6.7\CMake\GenerateDCMTKConfigure.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtk.pc.in;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkAfterModules.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkMacros.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkPrepare.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryCompile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryRun.cmake;C:\__Dev\dcmtk-3.6.7\CMake\osconfig.h.in;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\__Dev\dcmtk-3.6.7\config\tests\iconv.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\3rdparty.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CTest\dcmtkCTestRun.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\CheckCMakeCommandExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\CheckFunctionWithHeaderExists.cmake;C:\__Dev\dcmtk-3.6.7\CMake\DCMTKConfig.cmake.in;C:\__Dev\dcmtk-3.6.7\CMake\GenerateCMakeExports.cmake;C:\__Dev\dcmtk-3.6.7\CMake\GenerateDCMTKConfigure.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtk.pc.in;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkAfterModules.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkMacros.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkPrepare.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryCompile.cmake;C:\__Dev\dcmtk-3.6.7\CMake\dcmtkTryRun.cmake;C:\__Dev\dcmtk-3.6.7\CMake\osconfig.h.in;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\__Dev\dcmtk-3.6.7\config\tests\iconv.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ZERO_CHECK.vcxproj">
+      <Project>{227B7A2B-128B-3EFC-8D93-C23E7D78C6EF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\cda2dcm.vcxproj">
+      <Project>{452A85E1-7604-3BC9-A289-805061B76BB4}</Project>
+      <Name>cda2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\libcmr\cmr.vcxproj">
+      <Project>{44BFE5FF-8AF0-3BCF-AC0D-261A9F52C8FC}</Project>
+      <Name>cmr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcm2json.vcxproj">
+      <Project>{57E77C07-E430-3D3F-92B2-D4F2ED0B1F42}</Project>
+      <Name>dcm2json</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcm2pdf.vcxproj">
+      <Project>{D477F0E0-B3BE-3251-9438-D8F0E5C55B65}</Project>
+      <Name>dcm2pdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimage\apps\dcm2pnm.vcxproj">
+      <Project>{76ADA282-0140-3B64-B6CF-DB158C8B626D}</Project>
+      <Name>dcm2pnm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcm2xml.vcxproj">
+      <Project>{B8AB0107-1952-305F-9532-FD513437C1CC}</Project>
+      <Name>dcm2xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\apps\dcmcjpeg.vcxproj">
+      <Project>{5E5DED38-52F7-3E77-B264-5F628EBCE1E6}</Project>
+      <Name>dcmcjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpls\apps\dcmcjpls.vcxproj">
+      <Project>{94E63743-39D0-3A93-BD98-370CB04ABFDF}</Project>
+      <Name>dcmcjpls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmconv.vcxproj">
+      <Project>{C5652A0F-06DA-3789-B344-5EAEFD3E4F06}</Project>
+      <Name>dcmconv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmcrle.vcxproj">
+      <Project>{B2D7F782-C301-3138-8040-5F2C148526F3}</Project>
+      <Name>dcmcrle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\libsrc\dcmdata.vcxproj">
+      <Project>{D1FCF2FC-2240-32F9-80C9-1FC470223A4B}</Project>
+      <Name>dcmdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\tests\dcmdata_tests.vcxproj">
+      <Project>{1A9E3ED0-77CC-398D-B024-ADF9F802EFA7}</Project>
+      <Name>dcmdata_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\apps\dcmdjpeg.vcxproj">
+      <Project>{E61487D1-2A58-3798-8B8F-48E7E760FE85}</Project>
+      <Name>dcmdjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpls\apps\dcmdjpls.vcxproj">
+      <Project>{A67F4CF7-E8FE-3CB3-BAFD-3B100CA70C63}</Project>
+      <Name>dcmdjpls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmdrle.vcxproj">
+      <Project>{139B6B3D-E736-3A55-B4C1-F2C48653D6B1}</Project>
+      <Name>dcmdrle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsign\libsrc\dcmdsig.vcxproj">
+      <Project>{ECE1E751-9861-3339-BEFA-6AF6DE6BF859}</Project>
+      <Name>dcmdsig</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimgle\apps\dcmdspfn.vcxproj">
+      <Project>{A8DDE044-EA79-3022-8490-867DF17E1129}</Project>
+      <Name>dcmdspfn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmdump.vcxproj">
+      <Project>{EEE3D106-ED06-310F-A05E-A635A9E39D53}</Project>
+      <Name>dcmdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmect\libsrc\dcmect.vcxproj">
+      <Project>{FDB6D223-708B-3F9A-A53E-77A05BF03990}</Project>
+      <Name>dcmect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmect\tests\dcmect_tests.vcxproj">
+      <Project>{85318168-522E-39AE-BB78-2522F0A0479B}</Project>
+      <Name>dcmect_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmfg\libsrc\dcmfg.vcxproj">
+      <Project>{16181AD6-95C4-3D04-8145-C72F76B99140}</Project>
+      <Name>dcmfg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmfg\tests\dcmfg_tests.vcxproj">
+      <Project>{0BF68F9C-22FC-32A2-B752-1DB2B513C3D2}</Project>
+      <Name>dcmfg_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmftest.vcxproj">
+      <Project>{02CB359E-DEBB-3807-9D4D-BE9E46E61D74}</Project>
+      <Name>dcmftest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmgpdir.vcxproj">
+      <Project>{1964DE7C-7AF2-3A0F-8FEF-E84F6B045883}</Project>
+      <Name>dcmgpdir</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimage\apps\dcmicmp.vcxproj">
+      <Project>{09ACA123-99AC-3668-8659-05ECE6B9B9D5}</Project>
+      <Name>dcmicmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimage\libsrc\dcmimage.vcxproj">
+      <Project>{EB9B7A70-BDAD-3B4B-8334-C4A3A339D699}</Project>
+      <Name>dcmimage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimgle\libsrc\dcmimgle.vcxproj">
+      <Project>{26B25F29-F038-3DA8-AEF8-58DA9615205C}</Project>
+      <Name>dcmimgle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmiod\libsrc\dcmiod.vcxproj">
+      <Project>{045CBDBD-57AA-3E22-8A95-B2028FB432D7}</Project>
+      <Name>dcmiod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmiod\tests\dcmiod_tests.vcxproj">
+      <Project>{8E40698C-D482-341D-BAA9-3E9E8725444B}</Project>
+      <Name>dcmiod_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\apps\dcmj2pnm.vcxproj">
+      <Project>{56E23A7E-2004-3F5A-8A5F-2AF0EA91D823}</Project>
+      <Name>dcmj2pnm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libsrc\dcmjpeg.vcxproj">
+      <Project>{53D197B4-8C87-387B-A1FC-B47F1BCD3766}</Project>
+      <Name>dcmjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpls\libsrc\dcmjpls.vcxproj">
+      <Project>{ED4A0DD4-2F34-384D-AA33-BEE6ED9E46BA}</Project>
+      <Name>dcmjpls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpls\apps\dcml2pnm.vcxproj">
+      <Project>{407C2CB5-59CB-38BA-B064-1CA81BCE2FB4}</Project>
+      <Name>dcml2pnm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmmkcrv.vcxproj">
+      <Project>{D7D477BF-3488-344A-AF75-C0E5E9106D54}</Project>
+      <Name>dcmmkcrv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\apps\dcmmkdir.vcxproj">
+      <Project>{5074FDD8-2FF9-33D9-B754-D1302C0930E8}</Project>
+      <Name>dcmmkdir</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmmklut.vcxproj">
+      <Project>{BC1228B7-05CA-3846-AB2F-70CB4A1E8D3F}</Project>
+      <Name>dcmmklut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\libsrc\dcmnet.vcxproj">
+      <Project>{BAD96C48-5BE4-3870-9C6B-15EFDB6B69E3}</Project>
+      <Name>dcmnet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\tests\dcmnet_tests.vcxproj">
+      <Project>{483A4970-D6A6-32A8-9C7C-14A50EF1ADFB}</Project>
+      <Name>dcmnet_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dcmodify.vcxproj">
+      <Project>{341D13FB-3CE6-3E9C-A297-C32A3F0240BE}</Project>
+      <Name>dcmodify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmp2pgm.vcxproj">
+      <Project>{59F8185B-3BFA-3EF8-8DE8-0546B02CA85D}</Project>
+      <Name>dcmp2pgm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpmap\libsrc\dcmpmap.vcxproj">
+      <Project>{9657DE96-DCB6-3674-93D5-569817F12DB8}</Project>
+      <Name>dcmpmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmprscp.vcxproj">
+      <Project>{7A5A6F23-6749-3ADB-BD5F-980780A59B61}</Project>
+      <Name>dcmprscp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmprscu.vcxproj">
+      <Project>{4DCD7E5C-B404-3C2D-BD91-38A8DC0881A8}</Project>
+      <Name>dcmprscu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmpschk.vcxproj">
+      <Project>{67D8860D-55E2-3908-B2FA-3F0E30E9447A}</Project>
+      <Name>dcmpschk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmpsmk.vcxproj">
+      <Project>{993AC64D-A450-3B2F-A753-97BAE3E269DC}</Project>
+      <Name>dcmpsmk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmpsprt.vcxproj">
+      <Project>{9D36C4CF-29DA-3B26-8898-55E9586C532D}</Project>
+      <Name>dcmpsprt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmpsrcv.vcxproj">
+      <Project>{13D380BC-9D85-3353-9BAF-CFD9E23A3E91}</Project>
+      <Name>dcmpsrcv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\apps\dcmpssnd.vcxproj">
+      <Project>{6B5DF704-1E4F-35F2-A440-B7E997D6D59C}</Project>
+      <Name>dcmpssnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\libsrc\dcmpstat.vcxproj">
+      <Project>{2C32D112-AF9D-3EEA-B26F-1650C55AC474}</Project>
+      <Name>dcmpstat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmqrdb\libsrc\dcmqrdb.vcxproj">
+      <Project>{C0037289-064E-39F7-AE89-9B86374C8B9C}</Project>
+      <Name>dcmqrdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmqrdb\apps\dcmqridx.vcxproj">
+      <Project>{47B39CED-B8F0-3A7E-88F3-72FC9B2EC211}</Project>
+      <Name>dcmqridx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmqrdb\apps\dcmqrscp.vcxproj">
+      <Project>{C8F74798-D8D0-3DAF-A7A2-EFCCCC171AF6}</Project>
+      <Name>dcmqrscp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmqrdb\apps\dcmqrti.vcxproj">
+      <Project>{8E44E6B8-00B5-3C35-ACA0-731516020E23}</Project>
+      <Name>dcmqrti</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimage\apps\dcmquant.vcxproj">
+      <Project>{F5BEE002-88D3-3723-B24F-D960E91E6A91}</Project>
+      <Name>dcmquant</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\dcmrecv.vcxproj">
+      <Project>{ABDB1AFC-0D89-3B23-8D19-F84D90373136}</Project>
+      <Name>dcmrecv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmrt\libsrc\dcmrt.vcxproj">
+      <Project>{DA08A778-733A-3005-934D-50C77E8685B2}</Project>
+      <Name>dcmrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmrt\tests\dcmrt_tests.vcxproj">
+      <Project>{9CFD37FA-9C4D-3334-A151-EB75C6EF0738}</Project>
+      <Name>dcmrt_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimage\apps\dcmscale.vcxproj">
+      <Project>{0FDCBBCF-F764-3791-9200-E93DA116BE08}</Project>
+      <Name>dcmscale</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmseg\libsrc\dcmseg.vcxproj">
+      <Project>{187C889F-7CA6-3A14-8C77-D937EE9938AF}</Project>
+      <Name>dcmseg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmseg\tests\dcmseg_tests.vcxproj">
+      <Project>{1E9EBFE7-3395-3719-8027-6B7923516257}</Project>
+      <Name>dcmseg_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\dcmsend.vcxproj">
+      <Project>{83AB8D31-11CF-35F6-AA1E-E72EAB006688}</Project>
+      <Name>dcmsend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsign\apps\dcmsign.vcxproj">
+      <Project>{5CF7059D-83A7-3374-8EF3-598E1B908D09}</Project>
+      <Name>dcmsign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\libsrc\dcmsr.vcxproj">
+      <Project>{99A4FA16-E91F-38D3-B1CA-8214A1EBDB67}</Project>
+      <Name>dcmsr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\tests\dcmsr_tests.vcxproj">
+      <Project>{29B13936-9656-38D5-B3A2-C11608DCDBA6}</Project>
+      <Name>dcmsr_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpls\libcharls\dcmtkcharls.vcxproj">
+      <Project>{17715E00-4533-3B53-AA26-E28AB4027336}</Project>
+      <Name>dcmtkcharls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmtls\libsrc\dcmtls.vcxproj">
+      <Project>{96F48DBE-3B09-38E1-9C38-246022AACC6D}</Project>
+      <Name>dcmtls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmtls\tests\dcmtls_tests.vcxproj">
+      <Project>{F28DA2D4-45DB-3C8B-BBD7-E70656816923}</Project>
+      <Name>dcmtls_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmtract\libsrc\dcmtract.vcxproj">
+      <Project>{73D5D3A8-D22D-3D35-A60F-479FBAE99BAD}</Project>
+      <Name>dcmtract</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmwlm\libsrc\dcmwlm.vcxproj">
+      <Project>{C01F7B37-5FF8-3F86-9EC6-A5E253F1C2AE}</Project>
+      <Name>dcmwlm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimgle\apps\dcod2lum.vcxproj">
+      <Project>{392EB0DB-24E8-3043-93FA-2EBC2DC1E496}</Project>
+      <Name>dcod2lum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimgle\apps\dconvlum.vcxproj">
+      <Project>{1C984047-FA80-31E3-8F9E-EB0BEEAD7F1B}</Project>
+      <Name>dconvlum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmrt\apps\drtdump.vcxproj">
+      <Project>{E79C6119-281C-3E49-8228-EB4ACEAFB114}</Project>
+      <Name>drtdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmrt\tests\drttest.vcxproj">
+      <Project>{47F56916-2181-3428-B41E-1FAC8B90CC10}</Project>
+      <Name>drttest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\apps\dsr2html.vcxproj">
+      <Project>{9016806C-C102-371B-AC98-DC507F4585E7}</Project>
+      <Name>dsr2html</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\apps\dsr2xml.vcxproj">
+      <Project>{FA0DB33C-CE9F-390F-BAEA-D631008F2C28}</Project>
+      <Name>dsr2xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\apps\dsrdump.vcxproj">
+      <Project>{877AB6FB-A5DD-35B4-A4AF-9CC513A9BAF0}</Project>
+      <Name>dsrdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\dump2dcm.vcxproj">
+      <Project>{7DDE55B6-552D-31F2-8A3C-014E2E4ED21B}</Project>
+      <Name>dump2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\echoscu.vcxproj">
+      <Project>{0F7E19B9-70F8-30AD-8B90-554DF08E337C}</Project>
+      <Name>echoscu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\findscu.vcxproj">
+      <Project>{35285169-1341-3DEB-A1B8-C281EB7C99FB}</Project>
+      <Name>findscu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\getscu.vcxproj">
+      <Project>{EEDA623A-0BD7-373B-BCE1-C2007C4B51E7}</Project>
+      <Name>getscu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\libi2d\i2d.vcxproj">
+      <Project>{0D616C78-CDA1-3B50-B5E8-BEBEABE54987}</Project>
+      <Name>i2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libijg12\ijg12.vcxproj">
+      <Project>{51CA869B-9B8A-3C5E-8694-5ECA1D07C4A8}</Project>
+      <Name>ijg12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libijg16\ijg16.vcxproj">
+      <Project>{5F3FCDDF-150D-3A3F-847D-0838293834C5}</Project>
+      <Name>ijg16</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmjpeg\libijg8\ijg8.vcxproj">
+      <Project>{D372B1CE-B5D1-3EFC-9E52-DD7B86479CC1}</Project>
+      <Name>ijg8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\img2dcm.vcxproj">
+      <Project>{5718844C-316F-3FED-842D-166E377E74C3}</Project>
+      <Name>img2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\tests\mkreport.vcxproj">
+      <Project>{3383E525-3299-3B86-B507-D71F081C5EE6}</Project>
+      <Name>mkreport</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\movescu.vcxproj">
+      <Project>{46FD0DBC-1329-3E55-BCC2-79CBA90A5F9C}</Project>
+      <Name>movescu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmpstat\tests\msgserv.vcxproj">
+      <Project>{B53A4FEE-2097-38CE-AD10-DBEA98B0565F}</Project>
+      <Name>msgserv</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\oflog\libsrc\oflog.vcxproj">
+      <Project>{28D5B11C-79E0-3E62-AF2A-763B078637E0}</Project>
+      <Name>oflog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ofstd\libsrc\ofstd.vcxproj">
+      <Project>{2221AE82-6C37-374A-963A-AD3C33D3F0F0}</Project>
+      <Name>ofstd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ofstd\tests\ofstd_tests.vcxproj">
+      <Project>{A0D3D82C-9852-39C5-AC04-70680A0548D2}</Project>
+      <Name>ofstd_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\pdf2dcm.vcxproj">
+      <Project>{FDE6B9C6-6B84-3AA1-AE40-EC2405C71C5E}</Project>
+      <Name>pdf2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\stl2dcm.vcxproj">
+      <Project>{38A9D70F-31B9-34F7-A91C-B4CA597D4308}</Project>
+      <Name>stl2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\storescp.vcxproj">
+      <Project>{408A63D2-3EE3-32D4-A333-3B93E73825D0}</Project>
+      <Name>storescp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\storescu.vcxproj">
+      <Project>{6FF703EE-A06C-3CD2-906F-99B3C1132924}</Project>
+      <Name>storescu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmnet\apps\termscu.vcxproj">
+      <Project>{3B945BCF-21A9-3C2B-8539-32A079249182}</Project>
+      <Name>termscu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmwlm\apps\wlmscpfs.vcxproj">
+      <Project>{30D7DF26-DA43-3A49-B24A-CFD0804AF2C4}</Project>
+      <Name>wlmscpfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmwlm\tests\wltest.vcxproj">
+      <Project>{8155A764-A27E-39B6-A38E-D279B23E5A7C}</Project>
+      <Name>wltest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\apps\xml2dcm.vcxproj">
+      <Project>{C4CA0BE8-BA5C-3C03-9944-AF3CFD4E0B43}</Project>
+      <Name>xml2dcm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\apps\xml2dsr.vcxproj">
+      <Project>{82A29F6A-6634-3D73-B646-08CFBD5DF9D9}</Project>
+      <Name>xml2dsr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

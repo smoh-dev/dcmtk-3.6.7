@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA08A778-733A-3005-934D-50C77E8685B2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>dcmrt</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dcmrt.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dcmrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcmrt.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dcmrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dcmrt.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dcmrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dcmrt.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dcmrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;dcmrt_EXPORTS;USE_NULL_SAFE_OFSTRING;DCMTK_BUILD_IN_PROGRESS;NOMINMAX;_CRT_FAR_MAPPINGS_NO_DEPRECATE;_CRT_IS_WCTYPE_NO_DEPRECATE;_CRT_MANAGED_FP_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE_GLOBALS;_CRT_SETERRORMODE_BEEP_SLEEP_NO_DEPRECATE;_CRT_TIME_FUNCTIONS_NO_DEPRECATE;_CRT_VCCLRIT_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;LIBXML_STATIC;_REENTRANT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\__Dev\dcmtk-3.6.7\build\config\include;C:\__Dev\dcmtk-3.6.7\ofstd\include;C:\__Dev\dcmtk-3.6.7\oflog\include;C:\__Dev\dcmtk-3.6.7\dcmdata\include;C:\__Dev\dcmtk-3.6.7\dcmimgle\include;C:\__Dev\dcmtk-3.6.7\dcmimage\include;C:\__Dev\dcmtk-3.6.7\dcmjpeg\include;C:\__Dev\dcmtk-3.6.7\dcmjpls\include;C:\__Dev\dcmtk-3.6.7\dcmtls\include;C:\__Dev\dcmtk-3.6.7\dcmnet\include;C:\__Dev\dcmtk-3.6.7\dcmsr\include;C:\__Dev\dcmtk-3.6.7\dcmsign\include;C:\__Dev\dcmtk-3.6.7\dcmwlm\include;C:\__Dev\dcmtk-3.6.7\dcmqrdb\include;C:\__Dev\dcmtk-3.6.7\dcmpstat\include;C:\__Dev\dcmtk-3.6.7\dcmrt\include;C:\__Dev\dcmtk-3.6.7\dcmiod\include;C:\__Dev\dcmtk-3.6.7\dcmfg\include;C:\__Dev\dcmtk-3.6.7\dcmseg\include;C:\__Dev\dcmtk-3.6.7\dcmtract\include;C:\__Dev\dcmtk-3.6.7\dcmpmap\include;C:\__Dev\dcmtk-3.6.7\dcmect\include;C:\__Dev\dcmtk-3.6.7\external\zlib-1.2.12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmrt/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmrt/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmrt\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmrt/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmrt/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmrt\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmrt/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmrt/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmrt\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/__Dev/dcmtk-3.6.7/dcmrt/libsrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/__Dev/dcmtk-3.6.7 -BC:/__Dev/dcmtk-3.6.7/build --check-stamp-file C:/__Dev/dcmtk-3.6.7/build/dcmrt/libsrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\__Dev\dcmtk-3.6.7\build\dcmrt\libsrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drmdose.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drmimage.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drmplan.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drmstrct.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtaadcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtadcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtads.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtafs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtags.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtajcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtas1.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtas5.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtas6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtas7.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtass.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbads.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbas.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbcps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbl2.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbl5.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbldls.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbldps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtblds1.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtblds5.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtblds6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbldts.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbrcss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbrdrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtbvcps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcbars.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtccs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcctus.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcdrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtces.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcgis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtchs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcims.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcncs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcos.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcpas.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcpis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcsas.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcshs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcsis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcsrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtcss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdddps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtddps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdias.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdimcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdimrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdirs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdose.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdspcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdvhs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtdvrrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drteas.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtecs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtes.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtfds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtfes.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtfgs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtfgss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtfms.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtfsss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtgas.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtgmcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtgms.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtgpis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drthsdrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtiais.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtians.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtiblds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtibls.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtibs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drticpds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drticps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtics.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtiis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtimage.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtionpl.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtiontr.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtipiqs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtircs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtiseis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtitts.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtiwps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtiws.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtlsds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtlsds6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtlsds7.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmacds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmas.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmdrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmls.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmris.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtmucs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtoas.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtois.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtopis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtos.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpbcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpcxs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpdecs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpdeds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpfms.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpics.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtplan.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtporcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtporis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtppcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtprsis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpscs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpsics.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpsss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtpvis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtqds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtras.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbas2.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbas8.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbls.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbos1.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbos6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbos7.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbs2.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbs4.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrbs8.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrcdrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrcos.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrcps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrdros.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrdrs1.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrdrs6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrdrs8.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrecs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrfgs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrfors.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrics.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrims.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtris.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrlsds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrmdrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrms.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrmss6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrmss7.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrpcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrpis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrppcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrpphs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrpps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrppss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrris1.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrris6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrris9.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrms.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrros.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrpcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrros.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrshs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrtps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrtps3.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrtps4.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrrtps5.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrscs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrsers.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrses.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrshs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrshs6.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrshs7.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrsis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrsns.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrsos.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrsrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrsss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrsts.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrtrs2.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrtrs4.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrvis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrws.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtrwvms.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtscris.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtscs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtsdcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtsds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtshds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtsins.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtsis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtsns.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtspccs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtspcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtspgis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtsptcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtssrcs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtssrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtsss.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtstrct.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttms0.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttms9.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttreat.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttscds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttsibs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttsmds.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttts.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drttypes.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtudis.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtvls.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtwps.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtwrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtwrsrs.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtws.cc" />
+    <ClCompile Include="C:\__Dev\dcmtk-3.6.7\dcmrt\libsrc\drtxrs.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ZERO_CHECK.vcxproj">
+      <Project>{227B7A2B-128B-3EFC-8D93-C23E7D78C6EF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmdata\libsrc\dcmdata.vcxproj">
+      <Project>{D1FCF2FC-2240-32F9-80C9-1FC470223A4B}</Project>
+      <Name>dcmdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\dcmimgle\libsrc\dcmimgle.vcxproj">
+      <Project>{26B25F29-F038-3DA8-AEF8-58DA9615205C}</Project>
+      <Name>dcmimgle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\oflog\libsrc\oflog.vcxproj">
+      <Project>{28D5B11C-79E0-3E62-AF2A-763B078637E0}</Project>
+      <Name>oflog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\__Dev\dcmtk-3.6.7\build\ofstd\libsrc\ofstd.vcxproj">
+      <Project>{2221AE82-6C37-374A-963A-AD3C33D3F0F0}</Project>
+      <Name>ofstd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

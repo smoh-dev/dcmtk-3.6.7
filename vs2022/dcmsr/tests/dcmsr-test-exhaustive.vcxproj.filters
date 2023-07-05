@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\__Dev\dcmtk-3.6.7\build\CMakeFiles\cc89ba3827b6298ab9c226f2d9f22d37\dcmsr-test-exhaustive.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\__Dev\dcmtk-3.6.7\dcmsr\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\__Dev\dcmtk-3.6.7\build\dcmsr\tests\CMakeFiles\dcmsr-test-exhaustive" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{072006A5-450E-3207-BC27-42C5E162AD4C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
